@@ -1,0 +1,84 @@
+﻿* {
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100%;
+    background-image: url('../img/home-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    z-index: -1;
+}
+
+#home {
+    width: 100%;
+    height: 100em;
+}
+
+#text-info {
+    margin-top: 9em;
+    margin-bottom: 16em;
+}
+
+    #text-info p {
+        width: 9em;
+        font-size: 4.6em;
+        line-height: 1.1em;
+        font-weight: 300;
+    }
+
+        #text-info p span {
+            color: #84B750;
+            font-weight: 500;
+        }
+
+    #text-info h6 {
+        width: 20em;
+        color: #5E5D5D;
+        font-size: 1.25em;
+        padding-top: .1em;
+        padding-bottom: .5em;
+    }
+
+    #text-info button {
+        background-color: #84B750;
+        color: white;
+        width: 10em;
+        border-radius: .7em;
+        margin-top: .5em;
+    }
+
+#sobre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    #sobre img {
+        width: 30em;
+        border-radius: 1em;
+    }
+
+    #sobre h2 {
+        font-size: 3em;
+        font-weight: bold;
+        padding-bottom: .3em;
+    }
+
+    #sobre p {
+        width: 20em;
+        font-size: 1.5em;
+        text-align: justify;
+    }
+
+        #sobre p span {
+            color: #93B6EE;
+            font-weight: 500;
+        }
