@@ -29,3 +29,34 @@ C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTrea
 C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.pdb
 C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.genruntimeconfig.cache
 C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\ref\WebEcommerce.dll
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\appsettings.json
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\WebEcommerce.staticwebassets.runtime.json
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\WebEcommerce.exe
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\WebEcommerce.deps.json
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\WebEcommerce.runtimeconfig.json
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\WebEcommerce.dll
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\WebEcommerce.pdb
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.AssemblyInfoInputs.cache
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.AssemblyInfo.cs
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.csproj.CoreCompileInputs.cache
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.RazorAssemblyInfo.cache
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.RazorAssemblyInfo.cs
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.sourcelink.json
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\staticwebassets\msbuild.WebEcommerce.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\staticwebassets\msbuild.build.WebEcommerce.props
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebEcommerce.props
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebEcommerce.props
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\scopedcss\bundle\WebEcommerce.styles.css
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\scopedcss\projectbundle\WebEcommerce.bundle.scp.css
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.dll
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\refint\WebEcommerce.dll
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.pdb
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.genruntimeconfig.cache
+C:\Users\barbs\Desktop\TCC\WebHealthTreats\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\ref\WebEcommerce.dll
