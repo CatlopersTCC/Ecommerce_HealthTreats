@@ -1,0 +1,84 @@
+﻿@model WebEcommerce.Models.Cliente;
+
+@{
+    ViewData["Title"] = "CadCliente";
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/cadastro.css" rel="stylesheet" />
+    <link href="~/css/fonts.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container" id="cadastro-form">
+        <div class="col-md-4">
+            <h3 class="subtitle-doc">
+                Cadastre-se!
+            </h3>
+            <div class="card">
+                <form asp-action="CadCliente">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-items">
+                        <aside class="itens-esquerda">
+                            <div class="form-group">
+                                <input asp-for="CPF" class="form-control" placeholder="CPF" />
+                                <span asp-validation-for="CPF" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="NomeCompleto" class="form-control" placeholder="Nome Completo" />
+                                <span asp-validation-for="NomeCompleto" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="NomeUsu" class="form-control" placeholder="Nome de Usuário" />
+                                <span asp-validation-for="NomeUsu" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="Email" class="form-control" placeholder="E-mail" />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="Senha" class="form-control" placeholder="Senha" />
+                                <span asp-validation-for="Senha" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="AvaliacaoMedica" class="form-control" placeholder="Avaliação Médica" />
+                                <span asp-validation-for="AvaliacaoMedica" class="text-danger"></span>
+                            </div>
+                        </aside>
+
+                        <aside class="itens-direita">
+                            <div class="form-group">
+                                <input asp-for="Tel" class="form-control" placeholder="Número de Telefone" />
+                                <span asp-validation-for="Tel" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="DataNasc" class="form-control" placeholder="Data de Nascimento" />
+                                <span asp-validation-for="DataNasc" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="CEP" class="form-control" placeholder="CEP" />
+                                <span asp-validation-for="CEP" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="NumResidencia" class="form-control" placeholder="№ da Residência" />
+                                <span asp-validation-for="NumResidencia" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="Complemento" class="form-control" placeholder="Complemento" />
+                                <span asp-validation-for="Complemento" class="text-danger"></span>
+                            </div>
+                        </aside>
+                    </div>
+
+                    <div class="form-group" id="cadastro-button">
+                        <button type="submit" class="btn btn-primary btn-block"> Concluir </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

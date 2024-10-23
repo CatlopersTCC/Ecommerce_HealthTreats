@@ -1,7 +1,11 @@
+using WebEcommerce.Repository;
+using WebEcommerce.Repository.Contract;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
 
 var app = builder.Build();
 

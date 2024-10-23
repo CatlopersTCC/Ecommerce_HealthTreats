@@ -16,7 +16,7 @@ create table tblCliente(
     tel varchar(9) not null,
     foto varchar(200) null,
     senha varchar(150) not null,
-    nivelAcesso tinyint not null
+    nivelAcesso boolean not null
 );
 
 /*
@@ -214,5 +214,4 @@ BEGIN
 	END IF;
 END;
 $$
-
 
