@@ -27,9 +27,9 @@ namespace WebEcommerce.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult CadCliente(Cliente cliente)
+        public IActionResult CadCliente(Cliente cliente, Endereco endereco, Bairro bairro)
         {
-            _clienteRepository.Cadastrar(cliente);
+            _clienteRepository.Cadastrar(cliente, endereco, bairro);
             return View();
         }
     }

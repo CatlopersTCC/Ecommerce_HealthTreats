@@ -2,7 +2,6 @@
 {
     public class Cliente
     {
-        private decimal cPF;
 
         public int IdUsu { get; set; }
 
@@ -12,7 +11,7 @@
 
         public required string Complemento { get; set; }
 
-        public decimal CPF { get => cPF; set => cPF = value; }
+        public decimal CPF { get; set; }
 
         public required string NomeUsu { get; set; }
 
@@ -31,5 +30,7 @@
         public DateTime DataNasc { get; set; }
 
         public string? Foto { get; set; }
+        public string? Logradouro { get; set; }
+        public string? Bairro { get; set; }
     }
 }

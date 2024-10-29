@@ -178,7 +178,7 @@ BEGIN
 
 END IF;
 
-    IF NOT EXISTS(SELECT idUsu from tblCliente where cpf = vCpf) THEN
+    IF NOT EXISTS(SELECT idUsu from tblCliente where cpf = vCpf) THEN	
 		INSERT INTO tblCliente (idUsu, cpf, cep, numResidencia, complemento, email, nomeUsu, nomeCompleto, avaliacaoMedica, dataNasc, tel, foto, senha, nivelAcesso) values (default, vCpf, vCep, vNumCasa, vComplemento, vEmail, vNUsu, vNCUsu, vMedica, vNasc, vTel, vFoto, vSenha, 1);
 	END IF;
 

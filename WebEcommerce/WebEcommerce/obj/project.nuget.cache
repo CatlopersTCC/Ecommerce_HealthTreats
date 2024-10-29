@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/myzfmvxjzAY+zUSNSVrtPT/ES/M1DSzVOmygKQCYtgEE0iFPk5txPDDJrgWhvFsdgs8EF69jiB00xIo7yZtyA==",
+  "dgSpecHash": "uSC4TS36tuWph6kz1oWj3ScbeiyBtuM+1zFmYTu3SCX29GHGqQuY0Rt21uPG6sj3ALhcttrzr5tIXdwFDmNViQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\3ds\\Desktop\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\WebEcommerce.csproj",
+  "projectFilePath": "C:\\Users\\3ds\\Desktop\\Ecommerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\WebEcommerce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\3ds\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\3ds\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",
