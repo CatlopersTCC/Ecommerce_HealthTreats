@@ -19,19 +19,9 @@ create table tblCliente(
     nivelAcesso boolean not null
 );
 
-/*
-select * from tblCliente;
-select * from tblLogin;
 
-insert into tblCliente (cpf, idLogin, nomeUsu, nomeCompleto, avaliacaoMedica, dataNasc, tel)
-	values (11111111111, 2, "Gama", "Matheus Gama Russi", "Obesidade Tipo 1", "2006-07-06", 911112222);
-    
-insert into tblLogin
-	values (default, "matheus@gmail.com", "1234", 1);
-    
-delete from tblCliente where idUsu = 2;
-delete from tblLogin where idLogin = 1;
-*/
+-- select * from tblCliente;
+
 
 create table tblProduto(
 	codProduto int primary key auto_increment,
@@ -168,15 +158,15 @@ ipCliente(vEmail varchar(150), vSenha varchar(150), vCpf decimal(11,0), vCep dec
 BEGIN
 	IF NOT EXISTS(SELECT cep from tblEndereco where cep = vCep) THEN
 	
-    IF NOT EXISTS (SELECT bairro from tblBairro where bairro = vBairro) THEN
-	
-		INSERT INTO tblBairro (bairro) values (vBairro);
-	
-    END IF;
+		IF NOT EXISTS (SELECT bairro from tblBairro where bairro = vBairro) THEN
+		
+			INSERT INTO tblBairro (bairro) values (vBairro);
+		
+		END IF;
 
-	INSERT INTO tblEndereco (cep, Logradouro, idBairro) values (vCep, vLogradouro, (SELECT idBairro from tblBairro where bairro = vBairro));
+		INSERT INTO tblEndereco (cep, Logradouro, idBairro) values (vCep, vLogradouro, (SELECT idBairro from tblBairro where bairro = vBairro));
 
-END IF;
+	END IF;
 
     IF NOT EXISTS(SELECT idUsu from tblCliente where cpf = vCpf) THEN	
 		INSERT INTO tblCliente (idUsu, cpf, cep, numResidencia, complemento, email, nomeUsu, nomeCompleto, avaliacaoMedica, dataNasc, tel, foto, senha, nivelAcesso) values (default, vCpf, vCep, vNumCasa, vComplemento, vEmail, vNUsu, vNCUsu, vMedica, vNasc, vTel, vFoto, vSenha, 1);
@@ -185,9 +175,16 @@ END IF;
 END;
 &&
 
-
 /*
+call ipCliente("matheus@gmail.com", "12345678", 12345678910, 02805000, "Rua Manuel José de Almeida", null, 260, "Sobrado", "MGRSongs", "Matheus Gama Russi", "Debilitado", "2006-07-06", "942747859", "path")
+
 select * from tblCliente;
+select * from tblEndereco;
+select * from tblBairro;
+
+delete from tblCliente;
+delete from tblEndereco;
+delete from tblBairro;
 */
 
 /*------------------------------------------------------------------------------------------PRODUTO---------------------------------------------------------------------------------*/

@@ -1,30 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\barbs\\Desktop\\TCC\\WebHealthTreats\\Ecommerce_HealthTreats\\WebEcommerce\\",
+  "WorkspaceRootPath": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\barbs\\desktop\\tcc\\webhealthtreats\\ecommerce_healthtreats\\webecommerce\\webecommerce\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\barbs\\desktop\\tcc\\webhealthtreats\\ecommerce_healthtreats\\webecommerce\\webecommerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\views\\cliente\\cadcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\views\\cliente\\cadcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\barbs\\desktop\\tcc\\webhealthtreats\\ecommerce_healthtreats\\webecommerce\\webecommerce\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\barbs\\desktop\\tcc\\webhealthtreats\\ecommerce_healthtreats\\webecommerce\\webecommerce\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\barbs\\desktop\\tcc\\webhealthtreats\\ecommerce_healthtreats\\webecommerce\\webecommerce\\wwwroot\\css\\fonts.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\wwwroot\\css\\fonts.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\barbs\\desktop\\tcc\\webhealthtreats\\ecommerce_healthtreats\\webecommerce\\webecommerce\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,80 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\barbs\\Desktop\\TCC\\WebHealthTreats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "WebEcommerce\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\barbs\\Desktop\\TCC\\WebHealthTreats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "WebEcommerce\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-22T21:20:06.913Z",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\appsettings.json",
+              "RelativeDocumentMoniker": "WebEcommerce\\appsettings.json",
+              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\appsettings.json",
+              "RelativeToolTip": "WebEcommerce\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T23:35:19.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "WebEcommerce\\Repository\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\ClienteRepository.cs",
+              "RelativeToolTip": "WebEcommerce\\Repository\\ClienteRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:39:52.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "WebEcommerce\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Models\\Cliente.cs",
+              "RelativeToolTip": "WebEcommerce\\Models\\Cliente.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:39:29.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\barbs\\Desktop\\TCC\\WebHealthTreats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebEcommerce\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\barbs\\Desktop\\TCC\\WebHealthTreats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebEcommerce\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
+              "Title": "CadCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Views\\Cliente\\CadCliente.cshtml",
+              "RelativeDocumentMoniker": "WebEcommerce\\Views\\Cliente\\CadCliente.cshtml",
+              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Views\\Cliente\\CadCliente.cshtml",
+              "RelativeToolTip": "WebEcommerce\\Views\\Cliente\\CadCliente.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T21:17:31.915Z"
+              "WhenOpened": "2024-10-30T22:38:58.135Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "home.js",
-              "DocumentMoniker": "C:\\Users\\barbs\\Desktop\\TCC\\WebHealthTreats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\js\\home.js",
-              "RelativeDocumentMoniker": "WebEcommerce\\wwwroot\\js\\home.js",
-              "ToolTip": "C:\\Users\\barbs\\Desktop\\TCC\\WebHealthTreats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\js\\home.js",
-              "RelativeToolTip": "WebEcommerce\\wwwroot\\js\\home.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-22T21:12:13.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\barbs\\Desktop\\TCC\\WebHealthTreats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebEcommerce\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\barbs\\Desktop\\TCC\\WebHealthTreats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebEcommerce\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T21:09:31.972Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "fonts.css",
-              "DocumentMoniker": "C:\\Users\\barbs\\Desktop\\TCC\\WebHealthTreats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\fonts.css",
-              "RelativeDocumentMoniker": "WebEcommerce\\wwwroot\\css\\fonts.css",
-              "ToolTip": "C:\\Users\\barbs\\Desktop\\TCC\\WebHealthTreats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\fonts.css",
-              "RelativeToolTip": "WebEcommerce\\wwwroot\\css\\fonts.css",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAUwGMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-22T21:11:47.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "home.css",
-              "DocumentMoniker": "C:\\Users\\barbs\\Desktop\\TCC\\WebHealthTreats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\home.css",
-              "RelativeDocumentMoniker": "WebEcommerce\\wwwroot\\css\\home.css",
-              "ToolTip": "C:\\Users\\barbs\\Desktop\\TCC\\WebHealthTreats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\home.css",
-              "RelativeToolTip": "WebEcommerce\\wwwroot\\css\\home.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-22T21:11:31.991Z"
+              "DocumentIndex": 0,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "WebEcommerce\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "WebEcommerce\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:33:19.82Z",
+              "EditorCaption": ""
             }
           ]
         }

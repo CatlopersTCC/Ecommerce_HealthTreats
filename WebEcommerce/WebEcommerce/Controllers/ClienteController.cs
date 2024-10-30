@@ -30,7 +30,7 @@ namespace WebEcommerce.Controllers
         public IActionResult CadCliente(Cliente cliente, Endereco endereco, Bairro bairro)
         {
             _clienteRepository.Cadastrar(cliente, endereco, bairro);
-            return View();
+            return RedirectToAction(nameof(Index));
         }
     }
 }

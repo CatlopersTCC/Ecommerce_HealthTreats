@@ -3,7 +3,6 @@
     public class Cliente
     {
 
-        public int IdUsu { get; set; }
 
         public decimal CEP { get; set; }
 
@@ -30,7 +29,7 @@
         public DateTime DataNasc { get; set; }
 
         public string? Foto { get; set; }
+        public string? NomeBairro { get; set; }
         public string? Logradouro { get; set; }
-        public string? Bairro { get; set; }
     }
 }
