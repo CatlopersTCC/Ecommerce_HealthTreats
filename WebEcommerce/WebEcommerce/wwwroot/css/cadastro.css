@@ -1,11 +1,13 @@
 ﻿body {
     background-color: #F2F2F2;
     color: #353535;
+
+    width: 100%;
+    height: 62em;
 }
 
 /*Centralização do formulário*/
 #cadastro-form {
-    height: 48em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,29 +28,39 @@
     width: 90%;
 }
 
-/*Configurações dentro do container*/
-.card form .form-items {
+/*Configurações dentro do formulário de cliente*/
+.card form #cadastro-cliente {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size: 1.25em;
+    font-size: 1.20em;
+}
+/*Configurações dentro do formulário de endereço*/
+.card form #cadastro-endereco {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.20em;
 }
 
 
+/*Configoração dos semi-containers laterais do formulário de cliente*/
+.card form #cadastro-cliente aside {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-
-
-
-    .card form .form-items aside {
-        width: 75%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-        /*Largura dos campos do formulário*/
-        .card form .form-items aside div {
-            width: 90%;
-        }
+/*Largura dos campos do formulário de cliente*/
+.card form #cadastro-cliente aside div {
+    width: 90%;
+}
+/*Largura dos campos do formulário de endereço*/
+.card form #cadastro-endereco div {
+    width: 95%;
+}
 
 
 /*Margem dos textos superiores dos formulários*/
@@ -56,15 +68,24 @@
     margin-top: 2%;
 }
 
-/*Formatação dos campos do formulário*/
-.card form .form-items input {
-    height: 3em;
+/*Formatação dos campos do formulário de cliente*/
+.card form #cadastro-cliente input {
+    height: 2.75em;
     border-style: solid;
     border-color: #353535;
     border-radius: .7em;
     font-size: .9em;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+.card form #cadastro-endereco input {
+    height: 2.75em;
+    border-style: solid;
+    border-color: #353535;
+    border-radius: .7em;
+    font-size: .9em;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 /*Centralização do botão do formulário*/
@@ -74,15 +95,15 @@
     align-items: center;
 }
 
-    /*Formatação do botão do formulário*/
-    .card form #cadastro-button button {
-        width: 40%;
-        height: 2.5em;
-        background-color: #84B750;
-        color: white;
-        font-weight: 500;
-        border: none;
-        border-radius: .7em;
-        margin-top: 3%;
-        margin-bottom: 1%;
-    }
+/*Formatação do botão do formulário*/
+.card form #cadastro-button button {
+    width: 40%;
+    height: 2.5em;
+    background-color: #84B750;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: .7em;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
