@@ -367,3 +367,15 @@ C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTrea
 C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Matheus\Desktop\Catloperssss\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.csproj.AssemblyReference.cache
+C:\Users\Matheus\Desktop\Catloperssss\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\Desktop\Catloperssss\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.AssemblyInfoInputs.cache
+C:\Users\Matheus\Desktop\Catloperssss\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.AssemblyInfo.cs
+C:\Users\Matheus\Desktop\Catloperssss\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\Desktop\Catloperssss\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Matheus\Desktop\Catloperssss\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.RazorAssemblyInfo.cache
+C:\Users\Matheus\Desktop\Catloperssss\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.RazorAssemblyInfo.cs
+C:\Users\Matheus\Desktop\Catloperssss\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.sourcelink.json
+C:\Users\Matheus\Desktop\Catloperssss\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.dll
+C:\Users\Matheus\Desktop\Catloperssss\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\refint\WebEcommerce.dll
+C:\Users\Matheus\Desktop\Catloperssss\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.pdb
