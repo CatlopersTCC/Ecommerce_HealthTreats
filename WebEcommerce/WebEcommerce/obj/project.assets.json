@@ -6563,7 +6563,8 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.6",
-      "MySql.Data >= 9.1.0"
+      "MySql.Data >= 9.1.0",
+      "Newtonsoft.Json >= 13.0.3"
     ]
   },
   "packageFolders": {
@@ -6618,6 +6619,10 @@
           "MySql.Data": {
             "target": "Package",
             "version": "[9.1.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           }
         },
         "imports": [

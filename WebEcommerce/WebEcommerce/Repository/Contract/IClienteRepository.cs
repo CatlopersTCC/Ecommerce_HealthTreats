@@ -8,7 +8,7 @@ namespace WebEcommerce.Repository.Contract
 
         void Cadastrar(Cliente cliente, Endereco endereco, Bairro bairro);
 
-        void RealizarLogin (int IdUsu);
+        Cliente RealizarLogin (string email, string senha);
 
         void AtualizarDados (Cliente cliente);
 

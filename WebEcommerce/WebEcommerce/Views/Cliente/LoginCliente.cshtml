@@ -1,0 +1,53 @@
+﻿@model WebEcommerce.Models.Cliente;
+
+@{
+    ViewData["Title"] = "Login";
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/login.css" rel="stylesheet" />
+    <link href="~/css/fonts.css" rel="stylesheet" />
+</head>
+<body>
+    <main role="main">
+        <br />
+        <br />
+        <section class="container" id="login_form">
+            <div class="col-sm-4">
+                <h3 class="subtitle-doc">
+                    Bem vindo de volta!
+                </h3>
+                <div id="code_login_1">
+                    <div class="card">
+                        <article class="card-body">
+                            @if (ViewData["msgn_error"] != null)
+                            {
+                                @* O HTML Raw pode ser usado para: Procurar e baixar páginas HTML, Procurar e baixar cabeçalhos.*@
+                                <p class="alert alert-danger">@Html.Raw(ViewData["msgn_error"])</p>
+                            }
+
+                            <form method="post">
+                                <div class="form-group">
+                                    <label id="label-form">E-mail</label>
+                                    <input asp-for="Email" class="form-control" placeholder="Digite seu e-mail" type="email">
+                                </div>
+                                <div class="form-group">
+                                    <label id="label-form">Senha</label>
+                                    <input asp-for="Senha" class="form-control" placeholder="Digite sua senha" type="password">
+                                </div>
+                                <br />
+                                <div class="form-group" id="button-form">
+                                    <button type="submit" class="btn btn-primary btn-block"> Entrar </button>
+                                </div>
+                            </form>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

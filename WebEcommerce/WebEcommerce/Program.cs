@@ -5,7 +5,30 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//Adicionando o serviço para manipular a Sessão
+builder.Services.AddHttpContextAccessor();
+
+//Adicionando as interfaces como serviço
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
+
+
+//Adicionando serviços para armazenar sessões no navegador (corrigir problema de TEMPDATA, dados temporáreos)
+    builder.Services.AddDistributedMemoryCache();
+    builder.Services.AddSession(options =>
+    {
+        //Definindo um tempo para a duração
+        options.IdleTimeout = TimeSpan.FromSeconds(60);
+        options.Cookie.HttpOnly = true;
+
+        //Mostrar para o navegdor que o cookie é essencial
+        options.Cookie.IsEssential = true;
+    });
+    builder.Services.AddMvc().AddSessionStateTempDataProvider();
+
+
+builder.Services.AddScoped<WebEcommerce.Libraries.Section.Section>();
+builder.Services.AddScoped<WebEcommerce.Libraries.Login.LoginCliente>();
 
 var app = builder.Build();
 
@@ -19,6 +42,9 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseCookiePolicy();
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",

@@ -23,6 +23,39 @@ namespace WebEcommerce.Repository
             throw new NotImplementedException();
         }
 
+        //Método para o login de cliente
+        public Cliente RealizarLogin(string email, string senha)
+        {
+            using (var conexao = new MySqlConnection(ConexaoMySql))
+            {
+                conexao.Open(); //Abrindo a conexão com o banco de dados
+
+                MySqlCommand cmd = new MySqlCommand("SELECT * FROM tblCliente where email = @email and senha = @senha", conexao); /*Executando o comando
+                       para pegar o email e senha da tabela tblCliente*/ 
+
+                
+                //Atribuo os valores de email e senha pegos no banco de dados nas parâmetros do método
+                cmd.Parameters.Add("@email", MySqlDbType.VarChar).Value = email;
+                cmd.Parameters.Add("@senha", MySqlDbType.VarChar).Value = senha;
+
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd); //Lê os dados pegos do banco de dados
+                MySqlDataReader dr; //Guarda os dados pegos do banco de dados
+
+                Cliente cliente = new Cliente(); //Instancia um objeto da classe Cliente
+                dr = cmd.ExecuteReader(CommandBehavior.CloseConnection); //Guarda os dados pegos do comando executado anteriormente, e fecha a conexão e seguida
+
+                /*Enquanto o DataReader estiver guardando os dados pegos do comando anteriormente executado, os atributos da classe Cliente receberão os valores
+                 pegos e convertidos do banco*/
+                while (dr.Read())
+                {
+                    cliente.Email = Convert.ToString(dr["email"]);
+                    cliente.Senha = Convert.ToString(dr["senha"]);
+                }
+                return cliente;
+            }
+        }
+
+        //Método para cadastro de cliente e de endereço
         public void Cadastrar(Cliente cliente, Endereco endereco, Bairro bairro)
         {
             using (var conexao = new MySqlConnection(ConexaoMySql))
@@ -50,18 +83,10 @@ namespace WebEcommerce.Repository
 
                 cmd.ExecuteNonQuery();
                 conexao.Close(); 
-
-
             }
-
         }
 
         public void ExcluirConta(int IdUsu)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void RealizarLogin(int IdUsu)
         {
             throw new NotImplementedException();
         }

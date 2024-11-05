@@ -1,0 +1,73 @@
+﻿body {
+    background-color: #F2F2F2;
+    color: #353535;
+
+    width: 100%;
+    height: 62em;
+}
+
+/*Centralização do formulário*/
+#login_form {
+    height: 40em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Borda no container e margens verticais*/
+.card {
+    border: none;
+    border-radius: .7em;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/*Tamanho horizontal do container*/
+.col-sm-4 {
+    width: 90%;
+}
+
+/*Configurações dentro do container*/
+.card-body form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.20em;
+}
+/*Largura dos campos do formulário*/
+.card-body form div {
+    width: 80%;
+}
+
+
+
+
+/*Formatação dos campos do formulário*/
+.card-body form div input {
+    height: 2.75em;
+    border-style: solid;
+    border-color: #353535;
+    border-radius: .7em;
+    font-size: .9em;
+}
+
+/*Centralização do botão do formulário*/
+.card-body form #button-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Formatação do botão do formulário*/
+.card-body form #button-form button {
+    width: 40%;
+    height: 2.5em;
+    background-color: #84B750;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: .7em;
+    margin-bottom: 2%;
+}

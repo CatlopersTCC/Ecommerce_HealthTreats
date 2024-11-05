@@ -9,7 +9,8 @@
       "WebEcommerce/1.0.0": {
         "dependencies": {
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.6",
-          "MySql.Data": "9.1.0"
+          "MySql.Data": "9.1.0",
+          "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "WebEcommerce.dll": {}
