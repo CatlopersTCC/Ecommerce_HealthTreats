@@ -13,7 +13,7 @@ create table tblCliente(
     nomeCompleto varchar(200) not null,
     avaliacaoMedica varchar(100) not null,
     dataNasc date not null,
-    tel varchar(9) not null,
+    tel varchar(11) not null,
     foto varchar(200) null,
     senha varchar(150) not null,
     nivelAcesso boolean not null
@@ -154,7 +154,7 @@ Dicionario de variaveis
 
 delimiter &&
 CREATE PROCEDURE 
-ipCliente(vEmail varchar(150), vSenha varchar(150), vCpf decimal(11,0), vCep decimal(8,0), vLogradouro varchar(200), vBairro varchar(200), vNumCasa int, vComplemento varchar(100), vNUsu varchar(150), vNCUsu varchar(200), vMedica varchar(100), vNasc date, vTel varchar(9), vFoto varchar(200))
+ipCliente(vEmail varchar(150), vSenha varchar(150), vCpf decimal(11,0), vCep decimal(8,0), vLogradouro varchar(200), vBairro varchar(200), vNumCasa int, vComplemento varchar(100), vNUsu varchar(150), vNCUsu varchar(200), vMedica varchar(100), vNasc date, vTel varchar(11), vFoto varchar(200))
 BEGIN
 	IF NOT EXISTS(SELECT cep from tblEndereco where cep = vCep) THEN
 	
@@ -185,6 +185,8 @@ select * from tblBairro;
 delete from tblCliente;
 delete from tblEndereco;
 delete from tblBairro;
+
+set sql_safe_updates = 0
 */
 
 /*------------------------------------------------------------------------------------------PRODUTO---------------------------------------------------------------------------------*/

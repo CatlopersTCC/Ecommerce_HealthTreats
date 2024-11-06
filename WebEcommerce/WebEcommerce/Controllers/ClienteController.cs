@@ -33,6 +33,11 @@ namespace WebEcommerce.Controllers
         [HttpPost]
         public IActionResult CadCliente(Cliente cliente, Endereco endereco, Bairro bairro)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(cliente);
+            }
+
             _clienteRepository.Cadastrar(cliente, endereco, bairro);
             return RedirectToAction(nameof(Index));
         }
