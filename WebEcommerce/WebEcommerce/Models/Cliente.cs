@@ -7,16 +7,16 @@ namespace WebEcommerce.Models
     {
 
         [Required (ErrorMessage = "Por favor, informe o CEP.")]
-        public decimal CEP { get; set; }
+        public decimal? CEP { get; set; }
 
         [Required (ErrorMessage = "Digite um número de residência válido.")]
-        public int NumResidencia { get; set; }
+        public int? NumResidencia { get; set; }
 
         [StringLength(100, MinimumLength = 5, ErrorMessage = "O complemento deve ter entre 5 e 100 caracteres.")]
         public string? Complemento { get; set; }
 
         [Required (ErrorMessage = "Por favor, informe o CPF.")]
-        public decimal CPF { get; set; }
+        public decimal? CPF { get; set; }
 
         [Required (ErrorMessage = "Por favor, informe seu nome de usuário.")]
         [StringLength(150, MinimumLength = 8, ErrorMessage = "O nome de usuário deve ter entre 8 e 150 caracteres.")]
@@ -44,8 +44,9 @@ namespace WebEcommerce.Models
         [Required]
         public bool NivelAcesso { get; set; }
 
-        [DataType(DataType.Date, ErrorMessage = "Por favor, insira uma data válida.")]
-        public DateTime DataNasc { get; set; }
+        [Required(ErrorMessage = "Por favor, insira uma data de nascimento válida.")]
+        [DataType(DataType.Date)]
+        public DateTime? DataNasc { get; set; }
 
         public string? Foto { get; set; }
 
