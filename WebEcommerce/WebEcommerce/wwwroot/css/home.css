@@ -17,7 +17,7 @@ body {
 
 #home {
     width: 100%;
-    height: 100em;
+    height: 120em;
 }
 
 #text-info {
@@ -59,6 +59,8 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+
+    margin-bottom: 7em;
 }
 
 #sobre img {
@@ -81,4 +83,19 @@ body {
 #sobre p span {
     color: #93B6EE;
     font-weight: 500;
+}
+
+#carouselExampleIndicators .carousel-indicators{
+    position: relative;
+}
+#carouselExampleIndicators .carousel-indicators button {
+    width: .8em;
+    height: .8em;
+    border-radius: 100%;
+    background-color: #747474;
+}
+
+#carouselExampleIndicators .carousel-inner{
+    height: 30em;
+    border-radius: 1em;
 }

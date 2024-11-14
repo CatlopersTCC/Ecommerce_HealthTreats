@@ -42,6 +42,8 @@ namespace WebEcommerce.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+
+
         //ActionREsult para a tela de login de cliente
         public IActionResult LoginCliente()
         {
