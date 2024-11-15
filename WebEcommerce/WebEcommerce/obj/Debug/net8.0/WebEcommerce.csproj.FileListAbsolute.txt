@@ -581,3 +581,19 @@ C:\Users\3ds\Desktop\Ecommerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\
 C:\Users\3ds\Desktop\Ecommerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\3ds\Desktop\Ecommerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\3ds\Desktop\Ecommerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.JSInterop.dll

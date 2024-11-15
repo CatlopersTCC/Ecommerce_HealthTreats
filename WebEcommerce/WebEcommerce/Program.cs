@@ -11,10 +11,11 @@ builder.Services.AddHttpContextAccessor();
 
 //Adicionando as interfaces como serviço
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
+builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
 
 
 //Adicionando serviços para armazenar sessões no navegador (corrigir problema de TEMPDATA, dados temporáreos)
-    builder.Services.AddDistributedMemoryCache();
+builder.Services.AddDistributedMemoryCache();
     builder.Services.AddSession(options =>
     {
         //Definindo um tempo para a duração

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<WebEcommerce.Models.Produto>
+
+@{
+    ViewData["Title"] = "Produtos";
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/fonts.css" rel="stylesheet" />
+</head>
+<body>
+
+    <section id="catalogo">
+        <div id="card-produto">
+            @foreach (var produto in Model)
+            {
+                <img src="~/img/@produto.Foto" alt="@produto.NomeProduto">
+                <h3>@produto.NomeProduto</h3>
+                <h3>R$@produto.Preco</h3>
+            }
+        </div>
+    </section>
+
+    <!--
+        <table class="table">
+        <tbody>
+    @foreach (var item in Model)
+    {
+                    <tr>
+                        <td>
+                @Html.DisplayFor(modelItem => item.NomeProduto)
+                        </td>
+                        <td>
+                @Html.DisplayFor(modelItem => item.Preco)
+                        </td>
+                        <td>
+                @Html.DisplayFor(modelItem => item.Foto)
+                        </td>
+                    </tr>
+    }
+        </tbody>
+    </table>
+    -->
+</body>

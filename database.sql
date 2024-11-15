@@ -214,3 +214,16 @@ BEGIN
 END;
 $$
 
+
+/*
+call ipProduto("Produto Teste", "2024-11-15", "2024-12-15", 99999.99, 100, "Produto para fins de teste", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate lorem nec risus maximus vehicula. Sed bibendum lobortis mi quis tempor. Fusce et purus ac mauris volutpat pulvinar eget vitae justo. Aenean sit amet massa ut felis imperdiet suscipit sed id ligula. Ut finibus lacinia lorem ut suscipit. Vivamus faucibus dui vitae elit convallis, vel vulputate dui vehicula. Donec gravida, nulla quis consectetur facilisis, elit ante dictum turpis, eu tempor nisi massa eu felis.", 999.99, "produto_placeholder.png");
+call ipProduto("Produto Teste 2", "2024-11-15", "2024-12-15", 99999.99, 100, "Produto para fins de teste", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate lorem nec risus maximus vehicula. Sed bibendum lobortis mi quis tempor. Fusce et purus ac mauris volutpat pulvinar eget vitae justo. Aenean sit amet massa ut felis imperdiet suscipit sed id ligula. Ut finibus lacinia lorem ut suscipit. Vivamus faucibus dui vitae elit convallis, vel vulputate dui vehicula. Donec gravida, nulla quis consectetur facilisis, elit ante dictum turpis, eu tempor nisi massa eu felis.", 999.99, "produto_placeholder.png");
+call ipProduto("Produto Teste 3", "2024-11-15", "2024-12-15", 99999.99, 100, "Produto para fins de teste", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate lorem nec risus maximus vehicula. Sed bibendum lobortis mi quis tempor. Fusce et purus ac mauris volutpat pulvinar eget vitae justo. Aenean sit amet massa ut felis imperdiet suscipit sed id ligula. Ut finibus lacinia lorem ut suscipit. Vivamus faucibus dui vitae elit convallis, vel vulputate dui vehicula. Donec gravida, nulla quis consectetur facilisis, elit ante dictum turpis, eu tempor nisi massa eu felis.", 999.99, "produto_placeholder.png");
+call ipProduto("Produto Teste 4", "2024-11-15", "2024-12-15", 99999.99, 100, "Produto para fins de teste", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate lorem nec risus maximus vehicula. Sed bibendum lobortis mi quis tempor. Fusce et purus ac mauris volutpat pulvinar eget vitae justo. Aenean sit amet massa ut felis imperdiet suscipit sed id ligula. Ut finibus lacinia lorem ut suscipit. Vivamus faucibus dui vitae elit convallis, vel vulputate dui vehicula. Donec gravida, nulla quis consectetur facilisis, elit ante dictum turpis, eu tempor nisi massa eu felis.", 999.99, "produto_placeholder.png");
+call ipProduto("Produto Teste 5", "2024-11-15", "2024-12-15", 99999.99, 100, "Produto para fins de teste", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate lorem nec risus maximus vehicula. Sed bibendum lobortis mi quis tempor. Fusce et purus ac mauris volutpat pulvinar eget vitae justo. Aenean sit amet massa ut felis imperdiet suscipit sed id ligula. Ut finibus lacinia lorem ut suscipit. Vivamus faucibus dui vitae elit convallis, vel vulputate dui vehicula. Donec gravida, nulla quis consectetur facilisis, elit ante dictum turpis, eu tempor nisi massa eu felis.", 999.99, "produto_placeholder.png");
+
+select * from tblProduto
+select nomeProd, precoUnitario, fotoProd from tblProduto
+
+delete from tblProduto
+*/
