@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wYSK4xFkzom+RcAUrAEGRjDXFTsfSpC6i2Cbku0jkt8=",
+  "Hash": "k+oE2lrumsgJOypCIyeRl2KBH3bxBy8aMZl2fHr4308=",
   "Source": "WebEcommerce",
   "BasePath": "_content/WebEcommerce",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\produtos.css",
+      "SourceId": "WebEcommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "BasePath": "_content/WebEcommerce",
+      "RelativePath": "css/produtos.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\produtos.css"
     },
     {
       "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\site.css",
