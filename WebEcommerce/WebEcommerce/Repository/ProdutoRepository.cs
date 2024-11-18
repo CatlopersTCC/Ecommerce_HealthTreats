@@ -41,5 +41,38 @@ namespace WebEcommerce.Repository
             }
             return ProdList;
         }
+
+        public Produto ObterProduto(int cod)
+        {
+            Produto produto = null;
+            using (var conexao = new MySqlConnection(conexaoMySQL))
+            {
+                conexao.Open();
+                MySqlCommand cmd = new MySqlCommand("select * from tblProduto where codProduto = @cod", conexao);
+                cmd.Parameters.AddWithValue("@cod", cod);
+
+                using (var dr = cmd.ExecuteReader())
+                {
+                    if (dr.Read())
+                    {
+                        produto = new Produto
+                        {
+                            CodProduto = Convert.ToInt32(dr["codProduto"]),
+                            NomeProduto = (string)(dr["nomeProd"]),
+                            DataFabricacao = Convert.ToDateTime(dr["dataFab"]),
+                            DataValidade = Convert.ToDateTime(dr["dataValidade"]),
+                            Preco = Convert.ToDecimal(dr["precoUnitario"]),
+                            QtdEstoque = Convert.ToInt32(dr["qtdEstoque"]),
+                            DescCurta = (string)(dr["descCurta"]),
+                            DescDetalhada = (string)(dr["descDetalhada"]),
+                            Peso = Convert.ToDecimal(dr["peso"]),
+                            Foto = (string)(dr["fotoProd"])
+                        };
+                    }
+                }
+                conexao.Close();
+            }
+            return produto;
+        }
     }
 }

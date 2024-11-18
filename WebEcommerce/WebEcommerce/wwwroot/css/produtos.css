@@ -41,7 +41,9 @@
 .produtos-section #produtos #card-produto #produto-info:hover{
     box-shadow: 0em 0em 1em #49455239;
 }
-
+.produtos-section #produtos #card-produto #produto-info a{
+    text-decoration: none;
+}
 
 .produtos-section #produtos #card-produto #produto-info img {
     width: 13em;

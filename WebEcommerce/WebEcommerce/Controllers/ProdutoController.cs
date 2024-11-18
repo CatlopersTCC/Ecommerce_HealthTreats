@@ -20,5 +20,15 @@ namespace WebEcommerce.Controllers
         {
             return View(_produtoRepository.ListarProdutos());
         }
+
+        public IActionResult DetalhesProdutos(int cod)
+        {
+            var produto = _produtoRepository.ObterProduto(cod);
+            if (produto == null)
+            {
+                return NotFound();
+            }
+            return View(produto);
+        }
     }
 }

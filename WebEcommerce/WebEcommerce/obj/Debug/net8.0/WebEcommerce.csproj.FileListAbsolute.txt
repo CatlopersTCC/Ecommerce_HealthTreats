@@ -802,3 +802,6 @@ C:\Users\3ds\Desktop\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce
 C:\Users\3ds\Desktop\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\3ds\Desktop\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\3ds\Desktop\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Matheus\Desktop\Catlopers\Health Treats\E-commerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll

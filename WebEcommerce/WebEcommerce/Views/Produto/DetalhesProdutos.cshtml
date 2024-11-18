@@ -1,0 +1,13 @@
+﻿@model WebEcommerce.Models.Produto
+
+<section class="detalhes-produto">
+    <div class="produto-imagem">
+        <img src="@Model.Foto" alt="@Model.NomeProduto">
+    </div>
+    <div class="produto-info">
+        <h1>@Model.NomeProduto</h1>
+        <h2>R$ @Model.Preco</h2>
+        <!-- Outros detalhes do produto -->
+        <button>Comprar</button>
+    </div>
+</section>
