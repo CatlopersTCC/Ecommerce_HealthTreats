@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using WebEcommerce.Repository;
 using WebEcommerce.Repository.Contract;
 
@@ -28,8 +29,11 @@ builder.Services.AddDistributedMemoryCache();
     builder.Services.AddMvc().AddSessionStateTempDataProvider();
 
 
+
 builder.Services.AddScoped<WebEcommerce.Libraries.Section.Section>();
 builder.Services.AddScoped<WebEcommerce.Libraries.Login.LoginCliente>();
+
+
 
 var app = builder.Build();
 
