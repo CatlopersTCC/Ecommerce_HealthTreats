@@ -63,8 +63,7 @@
               "RelativeToolTip": "WebEcommerce\\Models\\Produto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T21:31:32.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T21:31:32.691Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "WebEcommerce\\Repository\\Contract\\IProdutoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T21:18:43.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T21:18:43.828Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "WebEcommerce\\Repository\\ProdutoRepository.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAowBQAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T21:16:23.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T21:16:23.521Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "WebEcommerce\\wwwroot\\css\\produtos.css",
               "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-18T21:08:10.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T21:08:10.092Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "WebEcommerce\\Views\\Produto\\Produtos.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAADgAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T21:03:35.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T21:03:35.751Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "WebEcommerce\\Controllers\\ProdutoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T20:53:24.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T20:53:24.863Z"
             }
           ]
         }
