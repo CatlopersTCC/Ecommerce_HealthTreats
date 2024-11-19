@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Identity;
+
 using WebEcommerce.Repository;
 using WebEcommerce.Repository.Contract;
 
@@ -33,9 +33,18 @@ builder.Services.AddDistributedMemoryCache();
 builder.Services.AddScoped<WebEcommerce.Libraries.Section.Section>();
 builder.Services.AddScoped<WebEcommerce.Libraries.Login.LoginCliente>();
 
+builder.Services.AddAuthentication("AdminAuth")
+    .AddCookie("AdminAuth", options =>
+    {
+        options.LoginPath = "/Admin/Login"; // Caminho para a página de login
+        options.AccessDeniedPath = "/Admin/AccessDenied"; // Caminho para acesso negado
+    });
 
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -50,6 +59,9 @@ app.UseAuthorization();
 
 app.UseCookiePolicy();
 app.UseSession();
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",

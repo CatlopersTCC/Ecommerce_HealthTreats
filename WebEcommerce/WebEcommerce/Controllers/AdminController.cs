@@ -1,7 +1,10 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.General;
+using System.Security.Claims;
 using WebEcommerce.Libraries.Login;
 using WebEcommerce.Repository.Contract;
 
@@ -9,23 +12,48 @@ namespace WebEcommerce.Controllers
 {
     public class AdminController : Controller
     {
-        private readonly UserManager<IdentityUser> _userManager;
+        private const string AdminUserName = "admin"; // constante para usuario administrador único
+        private const string AdminPassword = "56798";
 
-        public AdminController(UserManager<IdentityUser> userManager)
+        [HttpGet]
+        public IActionResult LoginAdmin()
         {
-            _userManager = userManager;
+            return View();
         }
-        public async Task<IActionResult> LoginAdmin()
-        { 
-            var user = await _userManager.GetUserAsync(User);
-            if (user != null && await _userManager.IsInRoleAsync(user, "Admin"))
+
+        [HttpPost]
+        public async Task<IActionResult> LoginAdmin(string username, string password) // significa que a operação será realizada de forma assincrona ao sistema
+        {
+            // Verifica credenciais fixas
+            if (username == AdminUserName && password == AdminPassword)
             {
-                return View(); // Se for administrador, renderiza a view
+                var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, username),
+                new Claim("Role", "Administrator")
+            };
+
+                var claimsIdentity = new ClaimsIdentity(claims, "AdminAuth"); // autentificação de identidade
+
+                await HttpContext.SignInAsync("AdminAuth", new ClaimsPrincipal(claimsIdentity));
+
+                return RedirectToAction("Index", "Home"); // Redireciona para a página inicial (mudar para redirecionar a login?)
             }
 
-            return RedirectToAction("AccessDenied", "Home");
-
+            ViewBag.ErrorMessage = "Credenciais inválidas.";
+            return View();
         }
-       
+
+        [Authorize(AuthenticationSchemes = "AdminAuth")]
+        public IActionResult AreaAdmin()
+        {
+            return View();
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync("AdminAuth");
+            return RedirectToAction("LoginCliente");
+        }
     }
 }
