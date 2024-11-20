@@ -1,13 +1,33 @@
 ﻿@model WebEcommerce.Models.Produto
 
-<section class="detalhes-produto">
-    <div class="produto-imagem">
-        <img src="@Model.Foto" alt="@Model.NomeProduto">
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/detalhes_produto.css" rel="stylesheet" />
+    <link href="~/css/fonts.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="produto">
+        <aside>
+            <img src="~/img/@Model.Foto" alt="@Model.NomeProduto" />
+        </aside>
+        <aside id="info">
+            <div>
+                <h3>@Model.NomeProduto</h3>
+                <h2>R$@Model.Preco</h2>
+                <h6>Em até 6x de R$@string.Format("{0:F2}", Model.Preco / 6)</h6>
+                <h5 id="aviso">◗ Apenas para o estado de São Paulo</h5>
+                <h5 id="qtd">Quantidade: @Model.QtdEstoque disponíveis</h5>
+                <details>
+                    <summary>Mais sobre esse produto:</summary>
+                    <p>@Model.DescDetalhada</p>
+                </details>
+            </div>
+            <button id="btn_produto" class="btn btn-primary">Comprar</button>
+            <button id="btn_produto" class="btn btn-secondary">Adicionar ao Carrinho</button>
+        </aside>
     </div>
-    <div class="produto-info">
-        <h1>@Model.NomeProduto</h1>
-        <h2>R$ @Model.Preco</h2>
-        <!-- Outros detalhes do produto -->
-        <button>Comprar</button>
-    </div>
-</section>
+</body>
+</html>

@@ -7652,19 +7652,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\barbs\\.nuget\\packages\\": {}
+    "C:\\Users\\Matheus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\barbs\\Desktop\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\WebEcommerce.csproj",
+      "projectUniqueName": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\WebEcommerce.csproj",
       "projectName": "WebEcommerce",
-      "projectPath": "C:\\Users\\barbs\\Desktop\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\WebEcommerce.csproj",
-      "packagesPath": "C:\\Users\\barbs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\barbs\\Desktop\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\obj\\",
+      "projectPath": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\WebEcommerce.csproj",
+      "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\barbs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7744,7 +7744,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
