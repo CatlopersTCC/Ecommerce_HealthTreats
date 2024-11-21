@@ -31,7 +31,7 @@
     border-radius: 1em;
 
     padding: 2.5em;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 #produto #info div h2{
     font-size: 3em;
@@ -42,6 +42,9 @@
 #produto #info div h6{
     color: #726F6F;
 }
+#produto #info div h6 span{
+    font-weight: 800;
+}
 #produto #info div #aviso{
     color: #FF7050;
     font-size: .9em;
@@ -49,6 +52,8 @@
 #produto #info div details{
     font-size: .8em;
     margin-top: 2em;
+
+    overflow: hidden;
 }
 #produto #info div details p{
     width: 28em;
@@ -62,6 +67,24 @@
 
     border-radius: .7em;
 }
-#btn_produto .btn btn-primary{
-    opacity: 0;
+
+.btn-primary {
+    background-color: #93B6EE;
+    border: none;
+
+    transition: background-color 200ms;
+}
+.btn-primary:hover{
+    background-color: #5289E0;
+}
+
+.btn-secondary {
+    background-color: #DBE9FF;
+    color: #93B6EE;
+    border: none;
+
+    transition: background-color 200ms;
+}
+.btn-secondary:hover{
+    background-color: #C0D5F6;
 }
