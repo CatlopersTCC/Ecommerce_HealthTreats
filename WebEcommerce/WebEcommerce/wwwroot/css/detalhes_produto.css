@@ -2,89 +2,88 @@
     width: 100%;
     height: 100%;
     background-color: #fbfbfb;
-
     color: #353535;
 }
 
-#produto{
+#produto {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-
     justify-content: space-between;
-
     margin-top: 4em;
 }
-#produto aside img{
+
+.image-container {
     width: 40em;
+    height: auto;
+    overflow: hidden;
     border-radius: 1em;
+    position: relative;
 }
 
-#produto #info{
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.2s ease;
+        cursor: zoom-in;
+    }
+
+    .image-container:hover img {
+        cursor: zoom-out;
+    }
+
+    .image-container img {
+        transform-origin: center;
+        position: relative;
+    }
+
+#produto #info {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-#produto #info div{
-    background-color: white;
-    box-shadow: 0em 0em 1em #00000012;
-    border-radius: 1em;
 
-    padding: 2.5em;
-    margin-bottom: 2em;
-}
-#produto #info div h2{
-    font-size: 3em;
-    font-weight: 400;
+    #produto #info div {
+        background-color: white;
+        box-shadow: 0em 0em 1em #00000012;
+        border-radius: 1em;
+        padding: 2.5em;
+        margin-bottom: 3em;
+    }
 
-    padding-right: 2em;
-}
-#produto #info div h6{
-    color: #726F6F;
-}
-#produto #info div h6 span{
-    font-weight: 800;
-}
-#produto #info div #aviso{
-    color: #FF7050;
-    font-size: .9em;
-}
-#produto #info div details{
-    font-size: .8em;
-    margin-top: 2em;
+        #produto #info div h2 {
+            font-size: 3em;
+            font-weight: 400;
+            padding-right: 2em;
+        }
 
-    overflow: hidden;
-}
-#produto #info div details p{
-    width: 28em;
-    text-align: justify;
-}
+        #produto #info div h6 {
+            color: #726F6F;
+        }
+
+        #produto #info div #aviso {
+            color: #FF7050;
+            font-size: 0.9em;
+        }
+
+        #produto #info div details {
+            font-size: 0.8em;
+            margin-top: 2em;
+        }
+
+            #produto #info div details p {
+                width: 28em;
+                text-align: justify;
+            }
 
 #btn_produto {
     width: 27.8em;
     height: 3em;
     margin-bottom: 1em;
-
-    border-radius: .7em;
+    border-radius: 0.7em;
 }
 
-.btn-primary {
-    background-color: #93B6EE;
-    border: none;
-
-    transition: background-color 200ms;
-}
-.btn-primary:hover{
-    background-color: #5289E0;
-}
-
-.btn-secondary {
-    background-color: #DBE9FF;
-    color: #93B6EE;
-    border: none;
-
-    transition: background-color 200ms;
-}
-.btn-secondary:hover{
-    background-color: #C0D5F6;
-}
+    #btn_produto .btn btn-primary {
+        opacity: 0;
+    }

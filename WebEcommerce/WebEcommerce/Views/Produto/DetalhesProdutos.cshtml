@@ -10,15 +10,16 @@
 </head>
 <body>
     <div id="produto">
-        <aside id="zoom-container">
-            <img src="~/img/@Model.Foto" alt="@Model.NomeProduto" />
-            <div id="zoom"></div>
+        <aside>
+            <div class="image-container">
+                <img src="~/img/@Model.Foto" alt="@Model.NomeProduto" />
+            </div>
         </aside>
         <aside id="info">
             <div>
                 <h3>@Model.NomeProduto</h3>
                 <h2>R$@Model.Preco</h2>
-                <h6>Em até 6x de <span>R$@string.Format("{0:F2}", Model.Preco / 6)</span></h6>
+                <h6>Em até 6x de R$@string.Format("{0:F2}", Model.Preco / 6)</h6>
                 <h5 id="aviso">◗ Apenas para o estado de São Paulo</h5>
                 <h5 id="qtd">Quantidade: @Model.QtdEstoque disponíveis</h5>
                 <details>
@@ -26,9 +27,30 @@
                     <p>@Model.DescDetalhada</p>
                 </details>
             </div>
-            <button id="btn_produto" class="btn-primary">Comprar</button>
-            <button id="btn_produto" class="btn-secondary">Adicionar ao Carrinho</button>
+            <button id="btn_produto" class="btn btn-primary">Comprar</button>
+            <button id="btn_produto" class="btn btn-secondary">Adicionar ao Carrinho</button>
         </aside>
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const container = document.querySelector(".image-container");
+            const img = container.querySelector("img");
+
+            container.addEventListener("mousemove", (e) => {
+                const rect = container.getBoundingClientRect();
+                const x = ((e.clientX - rect.left) / rect.width) * 100;
+                const y = ((e.clientY - rect.top) / rect.height) * 100;
+
+                img.style.transformOrigin = `${x}% ${y}%`;
+                img.style.transform = "scale(2)";
+            });
+
+            container.addEventListener("mouseleave", () => {
+                img.style.transform = "scale(1)";
+                img.style.transformOrigin = "center";
+            });
+        });
+    </script>
 </body>
 </html>

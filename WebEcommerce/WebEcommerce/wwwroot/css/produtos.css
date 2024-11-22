@@ -67,18 +67,18 @@
 
 
 
-    #carouselExampleIndicators .carousel-indicators {
-        position: relative;
-    }
+#carouselExampleIndicators .carousel-indicators {
+    position: relative;
+}
 
 #carouselExampleIndicators .carousel-indicators button {
     width: .8em;
     height: .8em;
     border-radius: 100%;
-    background-color: #747474;
+    background-color: #84B750;
 }
-
 #carouselExampleIndicators .carousel-inner {
-    height: 30em;
+    height: 31em;
     border-radius: 1em;
+    box-shadow: 0em 0em 1em #00000020;
 }
