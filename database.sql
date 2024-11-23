@@ -33,7 +33,9 @@ create table tblProduto(
     descCurta varchar(200) not null,
     descDetalhada text not null,
     peso decimal(5,2) not null,
-    fotoProd varchar(200) 
+    fotoProd varchar(200),
+    no_carrinho bool,
+    destaques bool
 );
 
 create table tblPedido(
@@ -202,18 +204,18 @@ Dicionario de variaveis
     vDCurta : descCurta
     vDDet : descDetalhada
     vFProd : fotoProd
+    vCarrinho : no_carrinho
 */
 
 delimiter $$
 CREATE PROCEDURE
-ipProduto(vNomeProd varchar(150), vDFab datetime, vDVal date, vPUni decimal(7,2), vQtd int, vDCurta varchar(200), vDDet text, vPeso decimal(5,2), vFProd varchar(200))
+ipProduto(vNomeProd varchar(150), vDFab datetime, vDVal date, vPUni decimal(7,2), vQtd int, vDCurta varchar(200), vDDet text, vPeso decimal(5,2), vFProd varchar(200), vCarrinho bool, vDestaques bool)
 BEGIN
 	IF NOT EXISTS (SELECT codProduto from tblProduto where nomeProd = vNomeProd) THEN
-		INSERT INTO tblProduto (codProduto, nomeProd, dataFab, dataValidade, precoUnitario, qtdEstoque, descCurta, descDetalhada, peso, fotoProd) values (default, vNomeProd, vDFab, vDVal, vPUni, vQtd, vDCurta, vDDet, vPeso, vFProd);
+		INSERT INTO tblProduto (codProduto, nomeProd, dataFab, dataValidade, precoUnitario, qtdEstoque, descCurta, descDetalhada, peso, fotoProd, no_carrinho, destaques) values (default, vNomeProd, vDFab, vDVal, vPUni, vQtd, vDCurta, vDDet, vPeso, vFProd, vCarrinho, vDestaques);
 	END IF;
 END;
 $$
-
 
 /*
 call ipProduto("Produto Teste", "2024-11-15", "2024-12-15", 99999.99, 100, "Produto para fins de teste", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate lorem nec risus maximus vehicula. Sed bibendum lobortis mi quis tempor. Fusce et purus ac mauris volutpat pulvinar eget vitae justo. Aenean sit amet massa ut felis imperdiet suscipit sed id ligula. Ut finibus lacinia lorem ut suscipit. Vivamus faucibus dui vitae elit convallis, vel vulputate dui vehicula. Donec gravida, nulla quis consectetur facilisis, elit ante dictum turpis, eu tempor nisi massa eu felis.", 999.99, "produto_placeholder.png");
