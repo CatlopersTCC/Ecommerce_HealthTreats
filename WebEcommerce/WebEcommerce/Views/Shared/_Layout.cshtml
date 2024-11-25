@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@inject WebEcommerce.Libraries.Login.LoginCliente LoginCliente
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -38,14 +40,30 @@
                                 <a class="nav-link" asp-area="" asp-controller="Produto" asp-action="Produtos">Produtos</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Carrinho</a>
+                                @if (LoginCliente.GetCliente() != null)
+                                {
+                                    <a class="nav-link" asp-area="" asp-controller="Carrinho" asp-action="Carrinho">Carrinho</a>
+                                }
+                                else
+                                {
+                                    <a class="nav-link" asp-area="" asp-controller="Cliente" asp-action="LoginCliente">Carrinho</a>
+                                }
                             </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" asp-area="" asp-controller="Cliente" asp-action="CadCliente">Cadastrar</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" asp-area="" asp-controller="Cliente" asp-action="LoginCliente">Entre</a>
-                            </li>
+                            @if (LoginCliente.GetCliente() != null)
+                            {
+                                <li>
+                                    <a href="@Url.Action("Logout", "Cliente")">Sair</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item active">
+                                    <a class="nav-link" asp-area="" asp-controller="Cliente" asp-action="CadCliente">Cadastrar</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" asp-area="" asp-controller="Cliente" asp-action="LoginCliente">Entre</a>
+                                </li>
+                            }
                         </ul>
 
                         <form>

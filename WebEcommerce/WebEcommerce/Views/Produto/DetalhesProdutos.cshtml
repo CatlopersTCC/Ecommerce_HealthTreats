@@ -1,5 +1,8 @@
 ﻿@model WebEcommerce.Models.Produto
 
+@inject WebEcommerce.Libraries.Login.LoginCliente LoginCliente
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -17,7 +20,7 @@
         </aside>
         <aside id="info">
             <div>
-                <h3>@Model.NomeProduto</h3>
+                <h3>@Model.NomeProduto @Model.NoCarrinho</h3>
                 <h2>R$@Model.Preco</h2>
                 <h6>Em até 6x de R$@string.Format("{0:F2}", Model.Preco / 6)</h6>
                 <h5 id="aviso">◗ Apenas para o estado de São Paulo</h5>
@@ -28,7 +31,19 @@
                 </details>
             </div>
             <button id="btn_produto" class="btn btn-primary">Comprar</button>
-            <button id="btn_produto" class="btn btn-secondary">Adicionar ao Carrinho</button>
+            @if (LoginCliente.GetCliente() != null)
+            {
+                <a asp-controller="Carrinho" asp-action="AddCarrinho" asp-route-cod="@Model.CodProduto">
+                    <button id="btn_produto" class="btn btn-secondary">Adicionar ao Carrinho</button>
+                </a>
+            }
+            else
+            {
+                <a asp-controller="Cliente" asp-action="LoginCliente">
+                    <button id="btn_produto" class="btn btn-secondary">Adicionar ao Carrinho</button>
+                </a>
+            }
+            
         </aside>
     </div>
 

@@ -121,6 +121,18 @@
       "PackagePath": "staticwebassets\\img\\banner_3.png"
     },
     {
+      "Id": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\banner_placeholder_1.png",
+      "PackagePath": "staticwebassets\\img\\banner_placeholder_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\banner_placeholder_2.png",
+      "PackagePath": "staticwebassets\\img\\banner_placeholder_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\banner_placeholder_3.png",
+      "PackagePath": "staticwebassets\\img\\banner_placeholder_3.png"
+    },
+    {
       "Id": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\geleia_laranja.png",
       "PackagePath": "staticwebassets\\img\\geleia_laranja.png"
     },
@@ -149,6 +161,10 @@
       "PackagePath": "staticwebassets\\img\\logo.svg"
     },
     {
+      "Id": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produto_placeholder.png",
+      "PackagePath": "staticwebassets\\img\\produto_placeholder.png"
+    },
+    {
       "Id": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produto_placeholderr.png",
       "PackagePath": "staticwebassets\\img\\produto_placeholderr.png"
     },
@@ -163,10 +179,6 @@
     {
       "Id": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\js\\home.js",
       "PackagePath": "staticwebassets\\js\\home.js"
-    },
-    {
-      "Id": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\js\\image_zoom.js",
-      "PackagePath": "staticwebassets\\js\\image_zoom.js"
     },
     {
       "Id": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\js\\site.js",

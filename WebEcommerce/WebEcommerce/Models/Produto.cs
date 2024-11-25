@@ -13,6 +13,7 @@
         public string? DescDetalhada { get; set; }
         public decimal? Peso { get; set; }
         public string? Foto { get; set; }
-
+        public bool? NoCarrinho { get; set; }
+        public bool? Destaque { get; set; }
     }
 }

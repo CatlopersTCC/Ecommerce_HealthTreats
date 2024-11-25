@@ -7,5 +7,7 @@ namespace WebEcommerce.Repository.Contract
         IEnumerable<Produto> ListarProdutos();
 
         Produto ObterProduto(int cod);
+
+        Produto AddCarrinho(int Cod);
     }
 }

@@ -11,7 +11,7 @@ namespace WebEcommerce.Controllers
         //Injeção de dependência
         private readonly ILogger<ClienteController> _logger;
         private readonly IClienteRepository _clienteRepository;
-        private LoginCliente _loginCliente;
+        private readonly LoginCliente _loginCliente;
 
         public ClienteController(ILogger<ClienteController> logger, IClienteRepository clienteRepository, LoginCliente loginCliente)
         {
@@ -30,6 +30,7 @@ namespace WebEcommerce.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult CadCliente(Cliente cliente, Endereco endereco, Bairro bairro)
         {
@@ -42,13 +43,12 @@ namespace WebEcommerce.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-
-
-        //ActionREsult para a tela de login de cliente
+        //ActionResult para a tela de login de cliente
         public IActionResult LoginCliente()
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult LoginCliente([FromForm] Cliente cliente)
         {
@@ -63,6 +63,13 @@ namespace WebEcommerce.Controllers
                 ViewData["msgn_error"] = "Usuário não encontrado, verifique o email e senha, e tente novamente";
                 return View();
             }
+        }
+
+        // Action para o logout do cliente
+        public IActionResult Logout()
+        {
+            _loginCliente.Logout();  // Chama o método Logout para remover a sessão
+            return RedirectToAction(nameof(Index));  // Redireciona para a página inicial
         }
     }
 }

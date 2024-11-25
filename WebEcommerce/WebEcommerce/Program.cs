@@ -13,6 +13,8 @@ builder.Services.AddHttpContextAccessor();
 //Adicionando as interfaces como serviço
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
 builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
+builder.Services.AddScoped<ICarrinhoRepository, CarrinhoRepository>();
+
 
 
 //Adicionando serviços para armazenar sessões no navegador (corrigir problema de TEMPDATA, dados temporáreos)
