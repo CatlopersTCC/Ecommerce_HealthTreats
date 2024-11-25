@@ -84,6 +84,21 @@
     border-radius: 0.7em;
 }
 
-    #btn_produto .btn btn-primary {
-        opacity: 0;
-    }
+.btn-primary {
+    background-color: #93B6EE;
+    color: white;
+    border: none;
+    transition: background-color 200ms;
+}
+.btn-primary:hover{
+    background-color: #6b85dc;
+}
+.btn-secondary {
+    background-color: #DBE9FF;
+    color: #93B6EE;
+    border: none;
+    transition: background-color 200ms;
+}
+.btn-secondary:hover {
+    background-color: #acc0ee;
+}

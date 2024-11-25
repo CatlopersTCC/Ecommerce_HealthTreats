@@ -1,53 +1,40 @@
-﻿@model IEnumerable<WebEcommerce.Models.Produto>
+﻿@model WebEcommerce.Models
 
 @{
     ViewData["Title"] = "Carrinho";
 }
 
-<h1>Carrinho</h1>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/carrinho.css" rel="stylesheet" />
+    <link href="~/css/fonts.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="carrinho">
+        @foreach (var produto in Model.Produto)
+        {
+            <aside id="produtos">
+                <img src="~/img/@produto.Foto" />
+                <div id="produto-info">
+                    <h3>@produto.NomeProduto</h3>
+                    <h4>R$@produto.Preco</h4>
+                </div>
+            </aside>
+        }
+        <aside id="detalhes-pedido">
+            <div id="resumo">
+                <h2>Resumo do pedido</h2>
+                <h3>Valor Total: <span>R$@Model.Carrinho.ValorTotal</span></h3>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.CodProduto)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NomeProduto)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Preco)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Foto)
-            </th>
-            <th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.CodProduto)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NomeProduto)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Preco)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Foto)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+                <button id="btn_produto" class="btn-primary">Finalizar Pedido</button>
+                <a asp-controller="Produto" asp-action="Produtos">
+                    <button id="btn_produto" class="btn-secondary">Continuar Comprando</button>
+                </a>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>

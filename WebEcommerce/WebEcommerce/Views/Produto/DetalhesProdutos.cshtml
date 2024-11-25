@@ -30,17 +30,17 @@
                     <p>@Model.DescDetalhada</p>
                 </details>
             </div>
-            <button id="btn_produto" class="btn btn-primary">Comprar</button>
+            <button id="btn_produto" class="btn-primary">Comprar</button>
             @if (LoginCliente.GetCliente() != null)
             {
                 <a asp-controller="Carrinho" asp-action="AddCarrinho" asp-route-cod="@Model.CodProduto">
-                    <button id="btn_produto" class="btn btn-secondary">Adicionar ao Carrinho</button>
+                    <button id="btn_produto" class="btn-secondary">Adicionar ao Carrinho</button>
                 </a>
             }
             else
             {
                 <a asp-controller="Cliente" asp-action="LoginCliente">
-                    <button id="btn_produto" class="btn btn-secondary">Adicionar ao Carrinho</button>
+                    <button id="btn_produto" class="btn-secondary">Adicionar ao Carrinho</button>
                 </a>
             }
             

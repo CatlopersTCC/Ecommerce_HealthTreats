@@ -22,8 +22,10 @@ namespace WebEcommerce.Controllers
 
         public IActionResult Carrinho()
         {
-            return View(_carrinhoRepository.ListarProdutosCarrinho());
+            var carrinho = _carrinhoRepository.ListarProdutosCarrinho();
+            return View(carrinho);
         }
+
 
 
         public IActionResult AddCarrinho(int cod)

@@ -12,34 +12,35 @@ namespace WebEcommerce.Repository
         #pragma warning restore CS8601 // Possible null reference assignment.
         public string ConexaoMySql => conexaoMySQL;
 
-        public IEnumerable<Produto> ListarProdutosCarrinho()
+        public Carrinho ListarProdutosCarrinho()
         {
-            List<Produto> ProdList = new List<Produto>();
+            var carrinho = new Carrinho();
+
             using (var conexao = new MySqlConnection(conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("select codProduto, nomeProd, precoUnitario, fotoProd from tblProduto where no_carrinho = true", conexao);
-
+                MySqlCommand cmd = new MySqlCommand("SELECT codProduto, nomeProd, precoUnitario, fotoProd FROM tblProduto WHERE no_carrinho = true", conexao);
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
-
                 conexao.Close();
 
                 foreach (DataRow dr in dt.Rows)
                 {
-                    ProdList.Add(
-                        new Produto
-                        {
-                            CodProduto = Convert.ToInt32(dr["codProduto"]),
-                            NomeProduto = (string)(dr["nomeProd"]),
-                            Preco = Convert.ToDecimal(dr["precoUnitario"]),
-                            Foto = (string)(dr["fotoProd"])
-                        }
-                    );
+                    var preco = Convert.ToDecimal(dr["precoUnitario"]);
+                    var produto = new Produto
+                    {
+                        CodProduto = Convert.ToInt32(dr["codProduto"]),
+                        NomeProduto = dr["nomeProd"].ToString(),
+                        Preco = preco,
+                        Foto = dr["fotoProd"].ToString()
+                    };
+                    carrinho.Produtos.Add(produto);
+                    carrinho.ValorTotal += preco; // Soma o preço total aqui
                 }
             }
-            return ProdList;
+
+            return carrinho;
         }
     }
 }
