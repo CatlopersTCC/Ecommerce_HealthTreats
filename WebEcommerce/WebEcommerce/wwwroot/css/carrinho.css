@@ -3,25 +3,105 @@
     background-color: #fbfbfb;
     color: #353535;
 }
-#carrinho #produtos{
+#carrinho{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 4em;
+}
+#carrinho #container-produto{
+    background-color: white;
+    padding: 1.5em;
+
+    border-radius: 1.2em;
+    box-shadow: 0em 0em 1em #00000004;
+}
+#carrinho #container-produto #produtos {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 
     align-items: center;
-    margin-bottom: 2em;
+    margin-bottom: .5em;
     padding: 1em;
+    width: 48em;
 
-    background-color: tomato;
+    background-color: white;
+    box-shadow: 0em 0em 1em #0000000e;
     border-radius: 1em;
+
+    transition: 200ms;
 }
-#carrinho #produtos img{
+#carrinho #container-produto #produtos:hover{
+    box-shadow: 0em 0em 1em #49455239;
+}
+#carrinho #container-produto #produtos img{
     width: 7em;
     border-radius: .5em;
 }
-#carrinho #produtos #produto-info {
+#carrinho #container-produto #produtos #produto-info {
     margin-left: 2em;
 }
-#carrinho #produtos #produto-info h4 {
+#carrinho #container-produto #produtos #produto-info h4 {
     font-size: 1.2em;
 }
+
+
+#carrinho #detalhes-pedido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 25em;
+    height: 32em;
+
+    border-radius: 1.5em;
+    padding: 1.2em;
+    background-color: white;
+    box-shadow: 0em 0em 1em #00000004;
+}
+#carrinho #detalhes-pedido h2{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+
+    font-size: 1.6em;
+    font-weight: 600;
+}
+#carrinho #detalhes-pedido h3{
+    font-size: 1.2em;
+    margin-top: .5em;
+}
+
+
+.btn-primary {
+    background-color: #93B6EE;
+    color: white;
+    border: none;
+    margin-bottom: 1em;
+
+    width: 20em;
+    height: 3em;
+    border-radius: .5em;
+
+    transition: background-color 200ms;
+}
+
+    .btn-primary:hover {
+        background-color: #6b85dc;
+    }
+
+.btn-secondary {
+    background-color: #DBE9FF;
+    color: #93B6EE;
+    border: none;
+
+    width: 20em;
+    height: 3em;
+    border-radius: .5em;
+
+    transition: background-color 200ms;
+}
+
+    .btn-secondary:hover {
+        background-color: #acc0ee;
+    }
