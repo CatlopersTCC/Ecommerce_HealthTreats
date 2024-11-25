@@ -9,5 +9,7 @@ namespace WebEcommerce.Repository.Contract
         Produto ObterProduto(int cod);
 
         Produto AddCarrinho(int Cod);
+
+        Produto RemoverCarrinho(int Cod);
     }
 }

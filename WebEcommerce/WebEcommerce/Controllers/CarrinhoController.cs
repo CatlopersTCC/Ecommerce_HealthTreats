@@ -26,14 +26,18 @@ namespace WebEcommerce.Controllers
             return View(carrinho);
         }
 
-
-
         public IActionResult AddCarrinho(int cod)
         {
             // Chama o repositório para adicionar ao carrinho
             var produto = _produtoRepository.AddCarrinho(cod);
 
             // Redireciona o usuário para a tela do carrinho
+            return RedirectToAction("Carrinho");
+        }
+
+        public IActionResult RemoverCarrinho(int cod)
+        {
+            var produto = _produtoRepository.RemoverCarrinho(cod);
             return RedirectToAction("Carrinho");
         }
     }

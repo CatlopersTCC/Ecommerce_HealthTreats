@@ -1,9 +1,6 @@
 ﻿@model WebEcommerce.Models.Carrinho
 
-@{
-    ViewData["Title"] = "Carrinho";
-}
-
+@inject WebEcommerce.Libraries.Login.LoginCliente LoginCliente
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -15,22 +12,30 @@
 <body>
     <div id="carrinho">
         <div id="container-produto">
-            @foreach (var produto in Model.Produtos)
+            @if (Model.Produtos.Count != 0)
             {
-                <aside id="produtos">
-                    <img src="~/img/@produto.Foto" />
-                    <div id="produto-info">
-                        <h3>@produto.NomeProduto</h3>
-                        <h4>R$@produto.Preco</h4>
-                    </div>
-                </aside>
+                @foreach (var produto in Model.Produtos)
+                {
+                    <aside id="produtos">
+                        <img src="~/img/@produto.Foto" />
+                        <div id="produto-info">
+                            <h3>@produto.NomeProduto</h3>
+                            <h4>R$@produto.Preco</h4>
+                        </div>
+                        <a asp-controller="Carrinho" asp-action="RemoverCarrinho" asp-route-cod="@produto.CodProduto"><img src="~/img/letra-x.png" /></a>
+                    </aside>
+                }
+            }
+            else
+            {   
+                <h6>Nenhum produto no carrinho ainda! Confira os <a asp-controller="Produto" asp-action="Produtos">produtos</a> para procurá-los!</h6>
             }
         </div>
         <aside id="detalhes-pedido">
             <h2>Resumo do pedido</h2>
-            <h3>Valor Total: R$@Model.ValorTotal</h3>
-            <h3>Frete: R$00,00</h3>
-            <h3>Desconto: R$00,00</h3>
+            <h3>Valor Total: &nbsp &nbsp R$@Model.ValorTotal</h3>
+            <h3>Frete: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   R$00,00</h3>
+            <h3>Desconto: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp    R$00,00</h3>
 
             <h2>Total: <span>R$@Model.ValorTotal</span></h2>
 

@@ -12,10 +12,28 @@
 #carrinho #container-produto{
     background-color: white;
     padding: 1.5em;
+    width: 51em;
 
     border-radius: 1.2em;
     box-shadow: 0em 0em 1em #00000004;
 }
+
+/*Caso o usuário não tenha adicionado produtos no carrinho*/
+#carrinho #container-produto h6{
+    text-align: center;
+    color: #808080;
+}
+#carrinho #container-produto h6 a{
+    text-decoration: none;
+    color: #84B750;
+    font-weight: 800;
+    transition: 200ms;
+}
+#carrinho #container-produto h6 a:hover{
+    letter-spacing: .025em;
+}
+
+/*Caso o usuário tenha adicionado produtos no carrinho*/
 #carrinho #container-produto #produtos {
     display: flex;
     flex-wrap: wrap;
@@ -45,8 +63,21 @@
 #carrinho #container-produto #produtos #produto-info h4 {
     font-size: 1.2em;
 }
+#carrinho #container-produto #produtos a{
+    margin-left: 23em;
+    margin-bottom: 6em;
+}
+#carrinho #container-produto #produtos a img{
+    width: 1.2em;
+    filter: brightness(0);
 
+    transition: 200ms;
+}
+#carrinho #container-produto #produtos a img:hover{
+    filter: brightness(0) saturate(100%) invert(37%) sepia(70%) saturate(1316%) hue-rotate(333deg) brightness(102%) contrast(105%);
+}
 
+/*Container que apresenta o preço*/
 #carrinho #detalhes-pedido{
     display: flex;
     flex-direction: column;
@@ -66,6 +97,9 @@
 
     font-size: 1.6em;
     font-weight: 600;
+}
+#carrinho #detalhes-pedido h2 span{
+    color: #84B750;
 }
 #carrinho #detalhes-pedido h3{
     font-size: 1.2em;

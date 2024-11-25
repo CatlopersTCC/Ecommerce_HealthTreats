@@ -100,5 +100,26 @@ namespace WebEcommerce.Repository
             }
         }
 
+        public Produto RemoverCarrinho(int cod)
+        {
+            using (var conexao = new MySqlConnection(conexaoMySQL))
+            {
+                conexao.Open();
+
+                // Comando para atualizar o banco
+                MySqlCommand cmd = new MySqlCommand("update tblProduto set no_carrinho = false where codProduto = @cod", conexao);
+                cmd.Parameters.AddWithValue("@cod", cod);
+
+                // Executar o comando de atualização
+                cmd.ExecuteNonQuery();
+
+                // Retorna o objeto Produto atualizado
+                return new Produto
+                {
+                    NoCarrinho = false // Já sabemos que foi alterado para true
+                };
+            }
+        }
+
     }
 }
