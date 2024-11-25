@@ -116,7 +116,7 @@ namespace WebEcommerce.Repository
                 // Retorna o objeto Produto atualizado
                 return new Produto
                 {
-                    NoCarrinho = false // Já sabemos que foi alterado para true
+                    NoCarrinho = false
                 };
             }
         }

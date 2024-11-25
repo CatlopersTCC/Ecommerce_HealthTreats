@@ -48,8 +48,38 @@ button.accept-policy {
 .footer {
     position: relative;
     width: 100%;
-    white-space: nowrap;
-    line-height: 60px;
+    line-height: 3em;
+    background-color: #596B39;
+
+    padding: 2em;
+}
+footer .container{
+    color: white;
+}
+.footer #conteudo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+}
+.footer #conteudo img{
+    width: 20.5em;
+    height: 9em;
+}
+.footer #conteudo #coluna-1 h5, .footer #conteudo #coluna-2 h5{
+    font-weight: 800;
+    color: white;
+}
+.footer #conteudo #coluna-1 ul, .footer #conteudo #coluna-2 ul{
+    list-style-type: none;
+    color: white;
+}
+.footer #conteudo #coluna-1 ul a, .footer #conteudo #coluna-2 ul a{
+    text-decoration: none;
+    color: white;
+    transition: 200ms;
+}
+.footer #conteudo #coluna-1 ul a:hover, .footer #conteudo #coluna-2 ul a:hover{
+    color: #84B750;
 }
 
 .mx-auto {

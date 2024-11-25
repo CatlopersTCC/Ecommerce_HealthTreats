@@ -15,5 +15,6 @@
         public string? Foto { get; set; }
         public bool? NoCarrinho { get; set; }
         public bool? Destaque { get; set; }
+        public int? Quantidade { get; set; } = 1;
     }
 }

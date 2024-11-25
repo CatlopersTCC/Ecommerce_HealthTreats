@@ -30,10 +30,5 @@ namespace WebEcommerce.Controllers
             }
             return View(produto);
         }
-
-        public IActionResult AddCarrinho() 
-        {
-            return View(); 
-        }
     }
 }
