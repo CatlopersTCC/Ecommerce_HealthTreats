@@ -28,30 +28,29 @@ namespace WebEcommerce.Repository
         {
             using (var conexao = new MySqlConnection(ConexaoMySql))
             {
-                conexao.Open(); //Abrindo a conexão com o banco de dados
+                conexao.Open(); // Abrindo a conexão com o banco de dados
 
-                MySqlCommand cmd = new MySqlCommand("SELECT * FROM tblCliente where email = @email and senha = @senha", conexao); /*Executando o comando
-                       para pegar o email e senha da tabela tblCliente*/ 
-
-                
-                //Atribuo os valores de email e senha pegos no banco de dados nas parâmetros do método
+                // Comando SQL para buscar o cliente com todos os dados
+                MySqlCommand cmd = new MySqlCommand("SELECT * FROM tblCliente WHERE email = @email AND senha = @senha", conexao);
                 cmd.Parameters.Add("@email", MySqlDbType.VarChar).Value = email;
                 cmd.Parameters.Add("@senha", MySqlDbType.VarChar).Value = senha;
 
-                MySqlDataAdapter da = new MySqlDataAdapter(cmd); //Lê os dados pegos do banco de dados
-                MySqlDataReader dr; //Guarda os dados pegos do banco de dados
+                MySqlDataReader dr = cmd.ExecuteReader(); // Executa o comando e lê os dados
 
-                Cliente cliente = new Cliente(); //Instancia um objeto da classe Cliente
-                dr = cmd.ExecuteReader(CommandBehavior.CloseConnection); //Guarda os dados pegos do comando executado anteriormente, e fecha a conexão e seguida
+                Cliente cliente = new Cliente(); // Inicializa o objeto como nulo
 
-                /*Enquanto o DataReader estiver guardando os dados pegos do comando anteriormente executado, os atributos da classe Cliente receberão os valores
-                 pegos e convertidos do banco*/
-                while (dr.Read())
+                // Se o leitor encontrar dados
+                if (dr.Read())
                 {
-                    cliente.Email = Convert.ToString(dr["email"]);
-                    cliente.Senha = Convert.ToString(dr["senha"]);
+                    cliente = new Cliente
+                    {
+                        Email = Convert.ToString(dr["email"]),
+                        Senha = Convert.ToString(dr["senha"]),
+                        NomeUsu = Convert.ToString(dr["nomeUsu"]),
+                    };
                 }
-                return cliente;
+
+                return cliente; // Retorna o cliente completo ou nulo se não encontrado
             }
         }
 

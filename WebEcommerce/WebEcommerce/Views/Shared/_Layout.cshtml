@@ -51,9 +51,16 @@
                             </li>
                             @if (LoginCliente.GetCliente() != null)
                             {
-                                <li>
-                                    <a class="nav-link" href="@Url.Action("Logout", "Cliente")">Sair</a>
-                                </li>
+                                <div class="dropdown">
+                                    <button id="categoria" class="btn btn-transparent dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <label>@LoginCliente.GetCliente().NomeUsu</label>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Perfil do Usuário</a></li>
+                                        <li><a class="dropdown-item" href="#">Cartões</a></li>
+                                        <li><a class="dropdown-item" href="@Url.Action("Logout", "Cliente")">Sair</a></li>
+                                    </ul>
+                                </div>
                             }
                             else
                             {

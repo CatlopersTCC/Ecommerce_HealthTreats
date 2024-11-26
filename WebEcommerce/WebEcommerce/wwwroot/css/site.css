@@ -52,6 +52,7 @@ button.accept-policy {
     background-color: #596B39;
 
     padding: 2em;
+    padding-top: 3em;
 }
 footer .container{
     color: white;
@@ -59,7 +60,7 @@ footer .container{
 .footer #conteudo {
     display: flex;
     justify-content: space-evenly;
-    align-items: top;
+    align-items: center;
 }
 .footer #conteudo img{
     width: 20.5em;

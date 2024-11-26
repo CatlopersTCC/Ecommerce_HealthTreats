@@ -59,7 +59,7 @@ body {
     justify-content: space-around;
     align-items: center;
 
-    margin-bottom: 10em;
+    margin-bottom: 12em;
 }
 
 #sobre img {
@@ -83,7 +83,9 @@ body {
     color: #93B6EE;
     font-weight: 500;
 }
-
+#carouselExampleIndicators{
+    margin-bottom: 10em;
+}
 #carouselExampleIndicators .carousel-indicators {
     position: relative;
 }
@@ -96,5 +98,64 @@ body {
 #carouselExampleIndicators .carousel-inner {
     height: 31em;
     border-radius: 1em;
-    box-shadow: 0em 0em 1em #00000020;
+    box-shadow: 0em 0em 1em #0000000e;
+}
+
+
+#produtos #chamada{
+    text-align: center;
+    padding: 1em;
+}
+#produtos #chamada span{
+    font-weight: 800;
+    color: #84B750;
+}
+#produtos #card-produto{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   flex-wrap: wrap;
+
+   width: 100%;
+}
+#produtos #card-produto #produto-info {
+    padding: 1em 0 1em 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+
+    width: 15em;
+    border-radius: 1em;
+    box-shadow: 0em 0em 1em #0000000e;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    transition: box-shadow 150ms;
+}
+#produtos #card-produto #produto-info:hover{
+    box-shadow: 0em 0em 1em #49455239;
+}
+#produtos #card-produto #produto-info a{
+    text-decoration: none;
+}
+
+#produtos #card-produto #produto-info img {
+    width: 13em;
+    border-radius: .8em;
+}
+#produtos #card-produto #produto-info h2{
+    font-size: .9em;
+    font-weight: 600;
+    color: #353535;
+
+    margin-top: 1em;
+
+}
+#produtos #card-produto #produto-info h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #353535;
 }

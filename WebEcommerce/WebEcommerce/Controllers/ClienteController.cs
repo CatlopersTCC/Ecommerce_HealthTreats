@@ -53,10 +53,10 @@ namespace WebEcommerce.Controllers
         public IActionResult LoginCliente([FromForm] Cliente cliente)
         {
             Cliente clienteDB = _clienteRepository.RealizarLogin(cliente.Email, cliente.Senha);
-            if (clienteDB.Email != null && clienteDB.Senha != null)
+            if (clienteDB != null && !string.IsNullOrEmpty(clienteDB.Email) && !string.IsNullOrEmpty(clienteDB.Senha))
             {
                 _loginCliente.Login(clienteDB);
-                return new RedirectResult(Url.Action(nameof(Index)));
+                return RedirectToAction(nameof(Index)); // Redireciona para a página inicial
             }
             else
             {

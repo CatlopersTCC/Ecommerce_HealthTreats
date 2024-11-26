@@ -44,6 +44,37 @@ namespace WebEcommerce.Repository
             return ProdList;
         }
 
+        public IEnumerable<Produto> ListarProdutosDestaques()
+        {
+            List<Produto> ProdList = new List<Produto>();
+            using (var conexao = new MySqlConnection(conexaoMySQL))
+            {
+                conexao.Open();
+                MySqlCommand cmd = new MySqlCommand("select codProduto, nomeProd, precoUnitario, fotoProd, destaques from tblProduto where destaques = true", conexao);
+
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                conexao.Close();
+
+                foreach (DataRow dr in dt.Rows)
+                {
+                    ProdList.Add(
+                        new Produto
+                        {
+                            CodProduto = Convert.ToInt32(dr["codProduto"]),
+                            NomeProduto = (string)(dr["nomeProd"]),
+                            Preco = Convert.ToDecimal(dr["precoUnitario"]),
+                            Foto = (string)(dr["fotoProd"]),
+                            Destaque = Convert.ToBoolean(dr["destaques"])
+                        }
+                    );
+                }
+            }
+            return ProdList;
+        }
+
         public Produto ObterProduto(int cod)
         {
             Produto produto = null;
