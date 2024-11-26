@@ -35,7 +35,8 @@ create table tblProduto(
     peso decimal(5,2) not null,
     fotoProd varchar(200),
     no_carrinho bool,
-    destaques bool
+    destaques bool,
+    categoria varchar(200) not null
 );
 
 create table tblPedido(
