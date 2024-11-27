@@ -231,3 +231,13 @@ select nomeProd, precoUnitario, fotoProd from tblProduto
 
 delete from tblProduto
 */
+
+/*
+insert into tblCategoria values (default, 'Massas');
+insert into tblCategoria values (default, 'Doces');
+insert into tblCategoria values (default, 'Salgados');
+insert into tblCategoria values (default, 'Bebidas');
+
+select * from tblCategoria;
+
+*/
