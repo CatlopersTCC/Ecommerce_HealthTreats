@@ -71,5 +71,10 @@ namespace WebEcommerce.Controllers
             _loginCliente.Logout();  // Chama o método Logout para remover a sessão
             return RedirectToAction(nameof(Index));  // Redireciona para a página inicial
         }
+
+        public IActionResult Cartoes()
+        {
+            return View(_clienteRepository.ListarCartoes());
+        }
     }
 }

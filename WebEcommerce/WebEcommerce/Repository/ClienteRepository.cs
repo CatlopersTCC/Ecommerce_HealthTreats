@@ -89,5 +89,37 @@ namespace WebEcommerce.Repository
         {
             throw new NotImplementedException();
         }
+
+        public IEnumerable<Cartao> ListarCartoes()
+        {
+            List<Cartao> Cartoes = new List<Cartao>();
+            using (var conexao = new MySqlConnection(ConexaoMySql))
+            {
+                conexao.Open();
+
+                MySqlCommand cmd = new MySqlCommand("select * from tblCartao");
+
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                conexao.Close();
+
+                foreach (DataRow dr in dt.Rows)
+                {
+                    Cartoes.Add(
+                        new Cartao
+                        {
+                            CodCartao = Convert.ToInt32(dr["cadCartao"]),
+                            NomeTitular = (string)(dr["nomeTitular"]),
+                            TipoCartao = Convert.ToInt32(dr["tipoCartao"]),
+                            CVV = Convert.ToDecimal(dr["CVV"]),
+                            DataValidade = Convert.ToDateTime(dr["dataValidade"]),
+                        }
+                    );
+                }
+            }
+            return Cartoes;
+        }
     }
 }

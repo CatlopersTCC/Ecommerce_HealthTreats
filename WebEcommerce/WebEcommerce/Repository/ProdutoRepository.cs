@@ -17,7 +17,7 @@ namespace WebEcommerce.Repository
         {
             List<Produto> ProdList = new List<Produto>();
             using (var conexao = new MySqlConnection(conexaoMySQL))
-            {
+            {                              
                 conexao.Open();
                 MySqlCommand cmd = new MySqlCommand("select codProduto, nomeProd, precoUnitario, fotoProd, destaques from tblProduto", conexao);
 

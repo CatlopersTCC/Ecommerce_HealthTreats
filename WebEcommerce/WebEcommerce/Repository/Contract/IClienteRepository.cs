@@ -14,7 +14,9 @@ namespace WebEcommerce.Repository.Contract
 
         void AtualizarPerfil (Cliente cliente);
 
-        void ExcluirConta (int IdUsu);
+        void ExcluirConta(int IdUsu);
+
+        IEnumerable<Cartao> ListarCartoes();
 
     }
 }
