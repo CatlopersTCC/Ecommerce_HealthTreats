@@ -16,7 +16,7 @@
             {
                 @foreach (var produto in Model.Produtos)
                 {
-                    <a asp-controller="Carrinho" asp-action="RemoverCarrinho" asp-route-cod="@produto.CodProduto"><img src="~/img/letra-x.png" /></a>
+                    <a id="remover" asp-controller="Carrinho" asp-action="RemoverCarrinho" asp-route-cod="@produto.CodProduto"><img src="~/img/letra-x.png" /></a>
                     <aside id="produtos">
                         <img src="~/img/@produto.Foto" />
                         <div id="produto-info">
@@ -27,7 +27,7 @@
                 }
             }
             else
-            {   
+            {
                 <h6>Nenhum produto no carrinho ainda! Confira os <a asp-controller="Produto" asp-action="Produtos">produtos</a> para procurá-los!</h6>
             }
         </div>

@@ -63,12 +63,12 @@
 #carrinho #container-produto #produtos #produto-info h4 {
     font-size: 1.2em;
 }
-#carrinho #container-produto a{
+#carrinho #container-produto #remover{
     position: absolute;
     padding: 1em;
     margin-left: 44.5em;
 }
-#carrinho #container-produto a img{
+#carrinho #container-produto #remover img{
     width: 1.2em;
     filter: brightness(0);
 
