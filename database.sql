@@ -36,17 +36,12 @@ create table tblProduto(
     fotoProd varchar(200),
     no_carrinho bool,
     destaques bool,
-    categoria varchar(200) not null
+    codCategoria int /*FK*/
 );
 
-create table tblPedido(
-	codPedido int primary key auto_increment,
-    CPF decimal(11,0), /*FK*/
-    idCarrinho int, /*FK*/
-    valorTotal decimal(11,2) not null,
-    dataHoraCompra datetime not null,
-	estimativaEntrega date not null,
-    frete decimal(5,2) not null
+create table tblCategoria(
+	codCategoria int primary key auto_increment,
+    nomeCategoria varchar(200)
 );
 
 create table tblCarrinhoCompras(
@@ -93,8 +88,7 @@ create table tblCartao(
 
 alter table tblCliente add constraint fk_cliente_endereco_cep foreign key (cep) references tblEndereco(cep);
 
-alter table tblPedido add constraint fk_pedido_cliente_cpf foreign key (cpf) references tblCliente(cpf);
-alter table tblPedido add constraint fk_pedido_carrinho_idcarrinho foreign key (idCarrinho) references tblCarrinhoCompras(idCarrinho);
+alter table tblProduto add constraint fk_produto_categoria_codcategoria foreign key (codCategoria) references tblCategoria(codCategoria);
 
 alter table tblCarrinhoCompras add constraint fk_carrinho_cliente_idusu foreign key (idUsu) references tblCliente(idUsu);
 alter table tblCarrinhoCompras add constraint fk_carrinho_produto_codproduto foreign key (codProduto) references tblProduto(codProduto);
@@ -210,10 +204,10 @@ Dicionario de variaveis
 
 delimiter $$
 CREATE PROCEDURE
-ipProduto(vNomeProd varchar(150), vDFab datetime, vDVal date, vPUni decimal(7,2), vQtd int, vDCurta varchar(200), vDDet text, vPeso decimal(5,2), vFProd varchar(200), vCarrinho bool, vDestaques bool)
+ipProduto(vNomeProd varchar(150), vDFab datetime, vDVal date, vPUni decimal(7,2), vQtd int, vDCurta varchar(200), vDDet text, vPeso decimal(5,2), vFProd varchar(200), vCarrinho bool, vDestaques bool, vCodCat int)
 BEGIN
 	IF NOT EXISTS (SELECT codProduto from tblProduto where nomeProd = vNomeProd) THEN
-		INSERT INTO tblProduto (codProduto, nomeProd, dataFab, dataValidade, precoUnitario, qtdEstoque, descCurta, descDetalhada, peso, fotoProd, no_carrinho, destaques) values (default, vNomeProd, vDFab, vDVal, vPUni, vQtd, vDCurta, vDDet, vPeso, vFProd, vCarrinho, vDestaques);
+		INSERT INTO tblProduto (codProduto, nomeProd, dataFab, dataValidade, precoUnitario, qtdEstoque, descCurta, descDetalhada, peso, fotoProd, no_carrinho, destaques) values (default, vNomeProd, vDFab, vDVal, vPUni, vQtd, vDCurta, vDDet, vPeso, vFProd, vCarrinho, vDestaques, vCodCat);
 	END IF;
 END;
 $$
