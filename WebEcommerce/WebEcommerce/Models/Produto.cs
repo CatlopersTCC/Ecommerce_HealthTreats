@@ -4,6 +4,7 @@
     {
 
         public int? CodProduto { get; set; }
+        public int? CodCategoria { get; set; }
         public string? NomeProduto { get; set; }
         public DateTime? DataFabricacao { get; set; }
         public DateTime? DataValidade { get; set; }

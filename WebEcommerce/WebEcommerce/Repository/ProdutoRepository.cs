@@ -91,6 +91,7 @@ namespace WebEcommerce.Repository
                         produto = new Produto
                         {
                             CodProduto = Convert.ToInt32(dr["codProduto"]),
+                            CodCategoria = Convert.ToInt32(dr["codCategoria"]),
                             NomeProduto = (string)(dr["nomeProd"]),
                             DataFabricacao = Convert.ToDateTime(dr["dataFab"]),
                             DataValidade = Convert.ToDateTime(dr["dataValidade"]),
