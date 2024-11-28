@@ -6,7 +6,7 @@ namespace WebEcommerce.Repository.Contract
     {
         //CRUD
 
-        void Cadastrar(Cliente cliente, Endereco endereco, Bairro bairro);
+        int Cadastrar(Cliente cliente, Endereco endereco, Bairro bairro);
 
         Cliente RealizarLogin (string email, string senha);
 
@@ -16,7 +16,7 @@ namespace WebEcommerce.Repository.Contract
 
         void ExcluirConta(int IdUsu);
 
-        IEnumerable<Cartao> ListarCartoes();
+        IEnumerable<Cartao> ListarCartoes(int? idUsu);
 
     }
 }

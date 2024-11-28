@@ -39,7 +39,7 @@ namespace WebEcommerce.Controllers
                 return View(cliente);
             }
 
-            _clienteRepository.Cadastrar(cliente, endereco, bairro);
+            cliente.IdUsu = _clienteRepository.Cadastrar(cliente, endereco, bairro);
             return RedirectToAction(nameof(Index));
         }
 
@@ -74,7 +74,8 @@ namespace WebEcommerce.Controllers
 
         public IActionResult Cartoes()
         {
-            return View(_clienteRepository.ListarCartoes());
+            int? idUsu = _loginCliente.GetCliente().IdUsu;
+            return View(_clienteRepository.ListarCartoes(idUsu));
         }
     }
 }

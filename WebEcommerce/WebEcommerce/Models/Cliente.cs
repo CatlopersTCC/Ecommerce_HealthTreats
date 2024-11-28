@@ -5,6 +5,7 @@ namespace WebEcommerce.Models
 {
     public class Cliente
     {
+        public int? IdUsu { get; set; }
 
         [Required (ErrorMessage = "Por favor, informe o CEP.")]
         public decimal? CEP { get; set; }

@@ -44,6 +44,7 @@ namespace WebEcommerce.Repository
                 {
                     cliente = new Cliente
                     {
+                        IdUsu = Convert.ToInt32(dr["idUsu"]),
                         Email = Convert.ToString(dr["email"]),
                         Senha = Convert.ToString(dr["senha"]),
                         NomeUsu = Convert.ToString(dr["nomeUsu"]),
@@ -55,7 +56,7 @@ namespace WebEcommerce.Repository
         }
 
         //Método para cadastro de cliente e de endereço
-        public void Cadastrar(Cliente cliente, Endereco endereco, Bairro bairro)
+        public int Cadastrar(Cliente cliente, Endereco endereco, Bairro bairro)
         {
             using (var conexao = new MySqlConnection(ConexaoMySql))
             {
@@ -78,10 +79,15 @@ namespace WebEcommerce.Repository
                 cmd.Parameters.Add("@dataNasc", MySqlDbType.Date).Value = cliente.DataNasc;
                 cmd.Parameters.Add("@tel", MySqlDbType.VarChar).Value = cliente.Tel;
                 cmd.Parameters.Add("@foto", MySqlDbType.VarChar).Value = cliente.Foto;
-                
 
                 cmd.ExecuteNonQuery();
-                conexao.Close(); 
+
+                MySqlCommand cmd_id = new MySqlCommand("select LAST_INSERT_ID()", conexao);
+                int id = Convert.ToInt32(cmd_id.ExecuteScalar());
+                
+                conexao.Close();
+
+                return id;
             }
         }
 
@@ -90,14 +96,15 @@ namespace WebEcommerce.Repository
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Cartao> ListarCartoes()
+        public IEnumerable<Cartao> ListarCartoes(int? idUsu)
         {
             List<Cartao> Cartoes = new List<Cartao>();
             using (var conexao = new MySqlConnection(ConexaoMySql))
             {
                 conexao.Open();
 
-                MySqlCommand cmd = new MySqlCommand("select * from tblCartao");
+                MySqlCommand cmd = new MySqlCommand("select * from tblCartao where idUsu = @idUsu", conexao);
+                cmd.Parameters.Add("@idUsu", MySqlDbType.Int32).Value = idUsu;
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
@@ -110,7 +117,8 @@ namespace WebEcommerce.Repository
                     Cartoes.Add(
                         new Cartao
                         {
-                            CodCartao = Convert.ToInt32(dr["cadCartao"]),
+                            CodCartao = Convert.ToInt64(dr["codCartao"]),
+                            IdUsu = idUsu,
                             NomeTitular = (string)(dr["nomeTitular"]),
                             TipoCartao = Convert.ToInt32(dr["tipoCartao"]),
                             CVV = Convert.ToDecimal(dr["CVV"]),
