@@ -77,7 +77,7 @@ namespace WebEcommerce.Repository
 
         public Produto ObterProduto(int cod)
         {
-            Produto produto = null;
+            Produto produto = new Produto();
             using (var conexao = new MySqlConnection(conexaoMySQL))
             {
                 conexao.Open();

@@ -18,7 +18,7 @@
                 {
                     <a id="remover" asp-controller="Carrinho" asp-action="RemoverCarrinho" asp-route-cod="@produto.CodProduto"><img src="~/img/letra-x.png" /></a>
                     <aside id="produtos">
-                        <img src="~/img/@produto.Foto" />
+                        <img src="~/img/produtos/@produto.Foto"/>
                         <div id="produto-info">
                             <h3>@produto.NomeProduto</h3>
                             <h4>R$ @((produto.Preco.GetValueOrDefault() * produto.Quantidade))</h4>

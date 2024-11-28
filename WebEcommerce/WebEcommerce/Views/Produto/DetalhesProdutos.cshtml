@@ -15,12 +15,12 @@
     <div id="produto">
         <aside>
             <div class="image-container">
-                <img src="~/img/@Model.Foto" alt="@Model.NomeProduto" />
+                <img src="~/img/produtos/@Model.Foto" alt="@Model.NomeProduto" />
             </div>
         </aside>
         <aside id="info">
             <div>
-                <h3>@Model.NomeProduto @Model.NoCarrinho</h3>
+                <h3>@Model.NomeProduto</h3>
                 <h2>R$@Model.Preco</h2>
                 <h6>Em até 6x de R$@string.Format("{0:F2}", Model.Preco / 6)</h6>
                 <h5 id="aviso">◗ Apenas para o estado de São Paulo</h5>

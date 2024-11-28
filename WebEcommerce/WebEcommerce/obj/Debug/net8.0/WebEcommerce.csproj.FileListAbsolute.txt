@@ -1572,3 +1572,6 @@ C:\Users\3ds\Documents\tcc\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\
 C:\Users\3ds\Documents\tcc\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.pdb
 C:\Users\3ds\Documents\tcc\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\WebEcommerce.genruntimeconfig.cache
 C:\Users\3ds\Documents\tcc\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\obj\Debug\net8.0\ref\WebEcommerce.dll
+C:\Users\3ds\Desktop\Ecommerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\3ds\Desktop\Ecommerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\3ds\Desktop\Ecommerce\Ecommerce_HealthTreats\WebEcommerce\WebEcommerce\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
