@@ -241,3 +241,14 @@ insert into tblCategoria values (default, 'Bebidas');
 select * from tblCategoria;
 
 */
+
+/*------------------------------------------------------------------------------------------CARTÃO---------------------------------------------------------------------------------*/
+
+delimiter $$
+CREATE PROCEDURE ipCartao(vCodCart decimal(16,0), vNome varchar(150), vTipo bit, vCVV decimal(3,0), vData date)
+BEGIN
+	IF NOT EXISTS(SELECT codCartao from tblCartao where nomeTitular = vNome) THEN
+		INSERT INTO tblCartao (codCartao, idUsu, nomeTitular, tipoCartao, CVV, dataValidade) VALUES (vCodCart, (SELECT idUsu from tblCliente WHERE nomeCompleto = vNome), vNome, vTipo, vCVV, vData);
+	END IF;
+END;
+$$
