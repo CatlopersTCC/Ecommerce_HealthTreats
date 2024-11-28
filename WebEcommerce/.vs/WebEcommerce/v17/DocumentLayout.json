@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\",
+  "WorkspaceRootPath": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\views\\cliente\\cartoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\3ds\\desktop\\health treats\\ecommerce_healthtreats\\webecommerce\\webecommerce\\views\\cliente\\cartoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\views\\cliente\\cartoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\repository\\contract\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\3ds\\desktop\\health treats\\ecommerce_healthtreats\\webecommerce\\webecommerce\\repository\\contract\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\repository\\contract\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\models\\cartao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\3ds\\desktop\\health treats\\ecommerce_healthtreats\\webecommerce\\webecommerce\\models\\cartao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\models\\cartao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Cartoes.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Views\\Cliente\\Cartoes.cshtml",
+              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Views\\Cliente\\Cartoes.cshtml",
               "RelativeDocumentMoniker": "WebEcommerce\\Views\\Cliente\\Cartoes.cshtml",
-              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Views\\Cliente\\Cartoes.cshtml",
+              "ToolTip": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Views\\Cliente\\Cartoes.cshtml",
               "RelativeToolTip": "WebEcommerce\\Views\\Cliente\\Cartoes.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-28T00:49:24.288Z",
               "EditorCaption": ""
@@ -41,27 +41,25 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Cartao.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Models\\Cartao.cs",
+              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Models\\Cartao.cs",
               "RelativeDocumentMoniker": "WebEcommerce\\Models\\Cartao.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Models\\Cartao.cs",
+              "ToolTip": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Models\\Cartao.cs",
               "RelativeToolTip": "WebEcommerce\\Models\\Cartao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T00:11:23.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T00:11:23.589Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "IClienteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\Contract\\IClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\Contract\\IClienteRepository.cs",
               "RelativeDocumentMoniker": "WebEcommerce\\Repository\\Contract\\IClienteRepository.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\Contract\\IClienteRepository.cs",
+              "ToolTip": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\Contract\\IClienteRepository.cs",
               "RelativeToolTip": "WebEcommerce\\Repository\\Contract\\IClienteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T14:07:00.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T14:07:00.473Z"
             }
           ]
         }
