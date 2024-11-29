@@ -15,27 +15,38 @@
 <body>
     <h1>Meus cartões</h1>
     <section id="cartoes">
-        @if (!Model.Any())
-        {
-            <h3>Não há cartões cadastrados!</h3>
-        }
-        else
-        {
-            @foreach (var cartao in Model)
+        <div id="container">
+            @if (!Model.Any())
             {
-                <div id="cartao">
-                    <img src="~/img/cartao_img.png" />
-                    <h3>
-                        Terminado em @(cartao.CodCartao.HasValue ? cartao.CodCartao.Value.ToString("0000000000000000").Substring(cartao.CodCartao.Value.ToString().Length - 4) : "****")
-                    </h3>
-                    <a asp-controller="Cliente" asp-action="ExcluirCartao" asp-route-codCartao="@cartao.CodCartao">Excluir</a>
-                </div>
+                <h6>Não há cartões cadastrados!</h6>
             }
-        }
+            else
+            {
+                @foreach (var cartao in Model)
+                {
+                    <a asp-controller="Cliente" asp-action="ExcluirCartao" asp-route-codCartao="@cartao.CodCartao">Excluir</a>
+                    <div id="cartao">
+                        <img src="~/img/cartao_img.png" />
+                        <div id="cartao-info">
+                            <h3>
+                                Terminado em <span>@(cartao.CodCartao.HasValue ? cartao.CodCartao.Value.ToString("0000000000000000").Substring(cartao.CodCartao.Value.ToString().Length - 4) : "****")</span>
+                            </h3>
+                            @if (@cartao.TipoCartao == 0)
+                            {
+                                <h6>Débito</h6>
+                            }
+                            else if (@cartao.TipoCartao == 1)
+                            {
+                                <h6>Crédito</h6>
+                            }
+                        </div>
+                    </div>
+                }
+            }
+        </div>
         <a asp-controller="Cliente" asp-action="AdicionarCartao">
             <button class="btn-primary">Adicionar novo cartão</button>
         </a>
-        
     </section>
 </body>
 </html>

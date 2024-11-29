@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NiMP7GR97ucrVrB421f+8623qEPxoqH3FA0AuzD4P8U=",
+  "Hash": "CFkt/+sKc3+hpNGShrmajKyI/4K5JuOel1vgsesiqMg=",
   "Source": "WebEcommerce",
   "BasePath": "_content/WebEcommerce",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebEcommerce.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\add_cartao.css",
+      "SourceId": "WebEcommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "BasePath": "_content/WebEcommerce",
+      "RelativePath": "css/add_cartao.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\add_cartao.css"
     },
     {
       "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\cadastro.css",

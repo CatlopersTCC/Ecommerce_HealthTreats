@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewComponents;
+using MySqlX.XDevAPI;
 using WebEcommerce.Libraries.Login;
 using WebEcommerce.Models;
 using WebEcommerce.Repository;
@@ -41,7 +42,7 @@ namespace WebEcommerce.Controllers
             }
 
             cliente.IdUsu = _clienteRepository.Cadastrar(cliente, endereco, bairro);
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(LoginCliente));
         }
 
         //ActionResult para a tela de login de cliente
@@ -97,8 +98,18 @@ namespace WebEcommerce.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult AdicionarCartao(Cartao cartao)
+        public IActionResult AdicionarCartao(Cartao cartao, string MesValidade, string AnoValidade)
         {
+            if (!string.IsNullOrEmpty(MesValidade) && !string.IsNullOrEmpty(AnoValidade))
+            {
+                // Converte para um DateTime com o dia fixado como o último do mês
+                cartao.DataValidade = new DateTime(
+                    int.Parse(AnoValidade),
+                    int.Parse(MesValidade),
+                    DateTime.DaysInMonth(int.Parse(AnoValidade), int.Parse(MesValidade))
+                );
+            }
+
             _clienteRepository.AdicionarCartao(cartao);
             return RedirectToAction(nameof(Cartoes)); // Redireciona após o sucesso
         }

@@ -3,51 +3,93 @@
 @{
     ViewData["Title"] = "AdicionarCartao";
 }
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/add_cartao.css" rel="stylesheet" />
+    <link href="~/css/fonts.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="row">
+        <div class="formulario-alignment">
+            <form id="cartao-form" asp-action="AdicionarCartao">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-<h1>AdicionarCartao</h1>
+                <div class="form-group">
+                    <input asp-for="NomeTitular" class="form-control" placeholder="Nome do Titular (mesmo que o seu nome completo)" />
+                    <span asp-validation-for="NomeTitular" class="text-danger"></span>
+                </div>
 
-<h4>Cartao</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="AdicionarCartao">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="CodCartao" class="control-label"></label>
-                <input asp-for="CodCartao" class="form-control" />
-                <span asp-validation-for="CodCartao" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NomeTitular" class="control-label"></label>
-                <input asp-for="NomeTitular" class="form-control" />
-                <span asp-validation-for="NomeTitular" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TipoCartao" class="control-label"></label>
-                <input asp-for="TipoCartao" class="form-control" />
-                <span asp-validation-for="TipoCartao" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CVV" class="control-label"></label>
-                <input asp-for="CVV" class="form-control" />
-                <span asp-validation-for="CVV" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DataValidade" class="control-label"></label>
-                <input asp-for="DataValidade" class="form-control" />
-                <span asp-validation-for="DataValidade" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+                <div id="aside-items">
+                    <aside id="left-items">
+                        <div class="form-group">
+                            <input asp-for="CodCartao" class="form-control" placeholder="№ do Cartão" />
+                            <span asp-validation-for="CodCartao" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <div class="row" id="data-validade">
+                                <!-- Seleção do mês -->
+                                <div class="col-md-6">
+                                    <select id="data-validade-mes" class="form-control" name="MesValidade">
+                                        <option value="" disabled selected>Mês</option>
+                                        <option value="01">Janeiro</option>
+                                        <option value="02">Fevereiro</option>
+                                        <option value="03">Março</option>
+                                        <option value="04">Abril</option>
+                                        <option value="05">Maio</option>
+                                        <option value="06">Junho</option>
+                                        <option value="07">Julho</option>
+                                        <option value="08">Agosto</option>
+                                        <option value="09">Setembro</option>
+                                        <option value="10">Outubro</option>
+                                        <option value="11">Novembro</option>
+                                        <option value="12">Dezembro</option>
+                                    </select>
+                                </div>
+                                <!-- Seleção do ano -->
+                                <div class="col-md-6">
+                                    <select id="data-validade-ano" class="form-control" name="AnoValidade">
+                                        <option value="" disabled selected>Ano</option>
+                                        @for (var i = DateTime.Now.Year; i <= DateTime.Now.Year + 20; i++)
+                                        {
+                                            <option value="@i">@i</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                            <span class="text-danger" asp-validation-for="DataValidade"></span>
+                        </div>
+                    </aside>
+
+                    <aside id="right-items">
+                        <div class="form-group">
+                            <!-- Substituindo o campo de texto por um SELECT -->
+                            <select asp-for="TipoCartao" class="form-control" id="tipo-cartao">
+                                <option value="" disabled selected>Escolha o tipo</option>
+                                <option value="0">Débito</option>
+                                <option value="1">Crédito</option>
+                            </select>
+                            <span asp-validation-for="TipoCartao" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input asp-for="CVV" class="form-control" placeholder="CVV" />
+                            <span asp-validation-for="CVV" class="text-danger"></span>
+                        </div>
+                    </aside>
+                </div>
+
+                <div class="form-group" id="salvar">
+                    <input type="submit" value="Salvar" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+</body>
+</html>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

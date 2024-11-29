@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\WebEcommerce.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\add_cartao.css",
+      "PackagePath": "staticwebassets\\css\\add_cartao.css"
+    },
+    {
       "Id": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\cadastro.css",
       "PackagePath": "staticwebassets\\css\\cadastro.css"
     },
