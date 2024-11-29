@@ -16,7 +16,10 @@ namespace WebEcommerce.Repository.Contract
 
         void ExcluirConta(int IdUsu);
 
+        //CRUD do cartão
         IEnumerable<Cartao> ListarCartoes(int? idUsu);
+        void ExcluirCartao (int? idUsu, decimal? codCartao);
+        void AdicionarCartao(Cartao cartao);
 
     }
 }

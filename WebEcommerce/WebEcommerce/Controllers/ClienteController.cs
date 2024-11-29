@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.ViewComponents;
 using WebEcommerce.Libraries.Login;
 using WebEcommerce.Models;
+using WebEcommerce.Repository;
 using WebEcommerce.Repository.Contract;
 
 namespace WebEcommerce.Controllers
@@ -76,6 +77,30 @@ namespace WebEcommerce.Controllers
         {
             int? idUsu = _loginCliente.GetCliente().IdUsu;
             return View(_clienteRepository.ListarCartoes(idUsu));
+        }
+        public IActionResult ExcluirCartao(decimal? codCartao)
+        {
+            int? idUsu = _loginCliente.GetCliente()?.IdUsu;
+
+            if (!idUsu.HasValue)
+            {
+                return BadRequest("Usuário não encontrado.");
+            }
+
+            _clienteRepository.ExcluirCartao(idUsu, codCartao);
+
+            return RedirectToAction(nameof(Cartoes));
+        }
+
+        public IActionResult AdicionarCartao()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult AdicionarCartao(Cartao cartao)
+        {
+            _clienteRepository.AdicionarCartao(cartao);
+            return RedirectToAction(nameof(Cartoes)); // Redireciona após o sucesso
         }
     }
 }

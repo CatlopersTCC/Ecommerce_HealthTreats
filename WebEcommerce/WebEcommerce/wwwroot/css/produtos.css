@@ -14,19 +14,20 @@
 
 
 .produtos-section #filtros{
-    width: 34em;
+    width: 50em;
 }
 
 
 .produtos-section #produtos #card-produto{
    display: flex;
    flex-wrap: wrap;
+   margin-left: 7.25em;
 
    width: 100%;
 }
 .produtos-section #produtos #card-produto #produto-info {
     padding: 1em 0 1em 1em;
-    margin-left: 1em;
+    margin-left: 2em;
     margin-bottom: 2em;
 
     width: 15em;

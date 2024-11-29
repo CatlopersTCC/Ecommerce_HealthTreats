@@ -4,55 +4,38 @@
     ViewData["Title"] = "Cartoes";
 }
 
-<h1>Cartoes</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.CodCartao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdUsu)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NomeTitular)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TipoCartao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CVV)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataValidade)
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.CodCartao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdUsu)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NomeTitular)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TipoCartao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CVV)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataValidade)
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/cartao.css" rel="stylesheet" />
+    <link href="~/css/fonts.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Meus cartões</h1>
+    <section id="cartoes">
+        @if (!Model.Any())
+        {
+            <h3>Não há cartões cadastrados!</h3>
+        }
+        else
+        {
+            @foreach (var cartao in Model)
+            {
+                <div id="cartao">
+                    <img src="~/img/cartao_img.png" />
+                    <h3>
+                        Terminado em @(cartao.CodCartao.HasValue ? cartao.CodCartao.Value.ToString("0000000000000000").Substring(cartao.CodCartao.Value.ToString().Length - 4) : "****")
+                    </h3>
+                    <a asp-controller="Cliente" asp-action="ExcluirCartao" asp-route-codCartao="@cartao.CodCartao">Excluir</a>
+                </div>
+            }
+        }
+        <a asp-controller="Cliente" asp-action="AdicionarCartao">
+            <button class="btn-primary">Adicionar novo cartão</button>
+        </a>
+        
+    </section>
+</body>
+</html>

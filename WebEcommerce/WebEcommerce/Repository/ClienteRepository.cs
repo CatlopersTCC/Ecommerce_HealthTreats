@@ -1,4 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
+using MySqlX.XDevAPI;
 using System.Data;
 using WebEcommerce.Models;
 using WebEcommerce.Repository.Contract;
@@ -128,6 +129,40 @@ namespace WebEcommerce.Repository
                 }
             }
             return Cartoes;
+        }
+
+        public void ExcluirCartao(int? idUsu, decimal? codCartao)
+        {
+            using (MySqlConnection conexao = new MySqlConnection(ConexaoMySql))
+            {
+                conexao.Open();
+                using (MySqlCommand cmd = new MySqlCommand("DELETE FROM tblCartao WHERE idUsu = @idUsu AND codCartao = @codCartao", conexao))
+                {
+                    cmd.Parameters.Add("@idUsu", MySqlDbType.Int32).Value = idUsu;
+                    cmd.Parameters.Add("@codCartao", MySqlDbType.Decimal).Value = codCartao;
+
+                    // Executa o comando
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public void AdicionarCartao(Cartao cartao)
+        {
+            using (MySqlConnection conexao = new MySqlConnection(ConexaoMySql))
+            {
+                conexao.Open();
+                using (MySqlCommand cmd = new MySqlCommand("call ipCartao(@codCartao, @nome, @tipo, @CVV, @data)", conexao))
+                {
+                    cmd.Parameters.Add("@codCartao", MySqlDbType.Decimal).Value = cartao.CodCartao;
+                    cmd.Parameters.Add("@nome", MySqlDbType.VarChar).Value = cartao.NomeTitular;
+                    cmd.Parameters.Add("@tipo", MySqlDbType.Int32).Value = cartao.TipoCartao;
+                    cmd.Parameters.Add("@CVV", MySqlDbType.Decimal).Value = cartao.CVV;
+                    cmd.Parameters.Add("@data", MySqlDbType.DateTime).Value = cartao.DataValidade;
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
         }
     }
 }

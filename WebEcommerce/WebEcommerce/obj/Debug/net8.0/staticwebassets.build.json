@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0XvCXgDaDhY+sWeHvGnMNEiyzGxVdLboWS6eMoibAm4=",
+  "Hash": "NiMP7GR97ucrVrB421f+8623qEPxoqH3FA0AuzD4P8U=",
   "Source": "WebEcommerce",
   "BasePath": "_content/WebEcommerce",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WebEcommerce\\wwwroot",
       "Source": "WebEcommerce",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\3ds\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "Identity": "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\3ds\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\3ds\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\QuickGrid.razor.js",
+      "Identity": "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\QuickGrid.razor.js",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\3ds\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "QuickGrid.razor.js",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\3ds\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\QuickGrid.razor.js"
+      "OriginalItemSpec": "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebEcommerce.styles.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebEcommerce.styles.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "WebEcommerce.styles.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebEcommerce.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebEcommerce.styles.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebEcommerce.bundle.scp.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebEcommerce.bundle.scp.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "WebEcommerce.bundle.scp.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebEcommerce.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebEcommerce.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\cadastro.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\cadastro.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "css/cadastro.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\cadastro.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\carrinho.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\carrinho.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "css/carrinho.css",
       "AssetKind": "All",
@@ -131,10 +131,29 @@
       "OriginalItemSpec": "wwwroot\\css\\carrinho.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\detalhes_produto.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\cartao.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "BasePath": "_content/WebEcommerce",
+      "RelativePath": "css/cartao.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cartao.css"
+    },
+    {
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\detalhes_produto.css",
+      "SourceId": "WebEcommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "css/detalhes_produto.css",
       "AssetKind": "All",
@@ -150,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\detalhes_produto.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\fonts.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\fonts.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "css/fonts.css",
       "AssetKind": "All",
@@ -169,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\home.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\home.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "css/home.css",
       "AssetKind": "All",
@@ -188,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\login.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\login.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "css/login.css",
       "AssetKind": "All",
@@ -207,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\produtos.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\produtos.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "css/produtos.css",
       "AssetKind": "All",
@@ -226,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\produtos.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\site.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -245,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\favicon.ico",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -264,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-Black.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-Black.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-Black.ttf",
       "AssetKind": "All",
@@ -283,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-Black.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-BlackItalic.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-BlackItalic.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-BlackItalic.ttf",
       "AssetKind": "All",
@@ -302,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-BlackItalic.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-Bold.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-Bold.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-Bold.ttf",
       "AssetKind": "All",
@@ -321,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-Bold.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-BoldItalic.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-BoldItalic.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-BoldItalic.ttf",
       "AssetKind": "All",
@@ -340,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-BoldItalic.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-ExtraBold.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-ExtraBold.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-ExtraBold.ttf",
       "AssetKind": "All",
@@ -359,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-ExtraBold.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-ExtraBoldItalic.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-ExtraBoldItalic.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-ExtraBoldItalic.ttf",
       "AssetKind": "All",
@@ -378,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-ExtraBoldItalic.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-ExtraLight.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-ExtraLight.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-ExtraLight.ttf",
       "AssetKind": "All",
@@ -397,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-ExtraLight.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-ExtraLightItalic.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-ExtraLightItalic.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-ExtraLightItalic.ttf",
       "AssetKind": "All",
@@ -416,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-ExtraLightItalic.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-Italic.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-Italic.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-Italic.ttf",
       "AssetKind": "All",
@@ -435,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-Italic.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-Light.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-Light.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-Light.ttf",
       "AssetKind": "All",
@@ -454,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-Light.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-LightItalic.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-LightItalic.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-LightItalic.ttf",
       "AssetKind": "All",
@@ -473,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-LightItalic.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-Medium.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-Medium.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-Medium.ttf",
       "AssetKind": "All",
@@ -492,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-Medium.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-MediumItalic.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-MediumItalic.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-MediumItalic.ttf",
       "AssetKind": "All",
@@ -511,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-MediumItalic.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-Regular.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-Regular.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-Regular.ttf",
       "AssetKind": "All",
@@ -530,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-Regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-SemiBold.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-SemiBold.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-SemiBold.ttf",
       "AssetKind": "All",
@@ -549,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-SemiBold.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-SemiBoldItalic.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-SemiBoldItalic.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-SemiBoldItalic.ttf",
       "AssetKind": "All",
@@ -568,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-SemiBoldItalic.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-Thin.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-Thin.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-Thin.ttf",
       "AssetKind": "All",
@@ -587,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-Thin.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-ThinItalic.ttf",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\fonts\\Inter\\Inter_28pt-ThinItalic.ttf",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "fonts/Inter/Inter_28pt-ThinItalic.ttf",
       "AssetKind": "All",
@@ -606,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Inter\\Inter_28pt-ThinItalic.ttf"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\banner_1.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\banner_1.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/banner_1.png",
       "AssetKind": "All",
@@ -625,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner_1.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\banner_2.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\banner_2.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/banner_2.png",
       "AssetKind": "All",
@@ -644,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner_2.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\banner_3.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\banner_3.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/banner_3.png",
       "AssetKind": "All",
@@ -663,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner_3.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\banner_placeholder_1.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\banner_placeholder_1.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/banner_placeholder_1.png",
       "AssetKind": "All",
@@ -682,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner_placeholder_1.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\banner_placeholder_2.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\banner_placeholder_2.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/banner_placeholder_2.png",
       "AssetKind": "All",
@@ -701,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner_placeholder_2.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\banner_placeholder_3.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\banner_placeholder_3.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/banner_placeholder_3.png",
       "AssetKind": "All",
@@ -720,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner_placeholder_3.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\cartao_img.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\cartao_img.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/cartao_img.png",
       "AssetKind": "All",
@@ -739,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\img\\cartao_img.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\home-bg.svg",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\home-bg.svg",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/home-bg.svg",
       "AssetKind": "All",
@@ -758,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\img\\home-bg.svg"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\letra-x.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\letra-x.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/letra-x.png",
       "AssetKind": "All",
@@ -777,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\img\\letra-x.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\logo.svg",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\logo.svg",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/logo.svg",
       "AssetKind": "All",
@@ -796,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.svg"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\logotipo.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\logotipo.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/logotipo.png",
       "AssetKind": "All",
@@ -815,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logotipo.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produto_placeholder.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produto_placeholder.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produto_placeholder.png",
       "AssetKind": "All",
@@ -834,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto_placeholder.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produto_placeholderr.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produto_placeholderr.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produto_placeholderr.png",
       "AssetKind": "All",
@@ -853,10 +872,29 @@
       "OriginalItemSpec": "wwwroot\\img\\produto_placeholderr.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\bolacha_manteiga.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\bolacha_cebola.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "BasePath": "_content/WebEcommerce",
+      "RelativePath": "img/produtos/bolacha_cebola.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\produtos\\bolacha_cebola.png"
+    },
+    {
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\bolacha_manteiga.png",
+      "SourceId": "WebEcommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/bolacha_manteiga.png",
       "AssetKind": "All",
@@ -872,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\bolacha_manteiga.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\bolacha_requeijao.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\bolacha_requeijao.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/bolacha_requeijao.png",
       "AssetKind": "All",
@@ -891,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\bolacha_requeijao.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\bolacha_tradicional.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\bolacha_tradicional.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/bolacha_tradicional.png",
       "AssetKind": "All",
@@ -910,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\bolacha_tradicional.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cafe_natural.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cafe_natural.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/cafe_natural.png",
       "AssetKind": "All",
@@ -929,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\cafe_natural.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cha_canela.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cha_canela.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/cha_canela.png",
       "AssetKind": "All",
@@ -948,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\cha_canela.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cha_gengibre.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cha_gengibre.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/cha_gengibre.png",
       "AssetKind": "All",
@@ -967,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\cha_gengibre.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cha_laranja.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cha_laranja.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/cha_laranja.png",
       "AssetKind": "All",
@@ -986,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\cha_laranja.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cha_limao.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cha_limao.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/cha_limao.png",
       "AssetKind": "All",
@@ -1005,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\cha_limao.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cha_maracuja.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cha_maracuja.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/cha_maracuja.png",
       "AssetKind": "All",
@@ -1024,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\cha_maracuja.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cha_morango.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cha_morango.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/cha_morango.png",
       "AssetKind": "All",
@@ -1043,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\cha_morango.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cha_verde.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cha_verde.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/cha_verde.png",
       "AssetKind": "All",
@@ -1062,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\cha_verde.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\chocolate_amendoas.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\chocolate_amendoas.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/chocolate_amendoas.png",
       "AssetKind": "All",
@@ -1081,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\chocolate_amendoas.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\chocolate_branco.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\chocolate_branco.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/chocolate_branco.png",
       "AssetKind": "All",
@@ -1100,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\chocolate_branco.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\chocolate_frutas.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\chocolate_frutas.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/chocolate_frutas.png",
       "AssetKind": "All",
@@ -1119,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\chocolate_frutas.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cookie_baunilia.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cookie_baunilia.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/cookie_baunilia.png",
       "AssetKind": "All",
@@ -1138,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\cookie_baunilia.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cookie_blueberry.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cookie_blueberry.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/cookie_blueberry.png",
       "AssetKind": "All",
@@ -1157,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\cookie_blueberry.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cookie_branco.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cookie_branco.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/cookie_branco.png",
       "AssetKind": "All",
@@ -1176,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\cookie_branco.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cookie_cereja.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cookie_cereja.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/cookie_cereja.png",
       "AssetKind": "All",
@@ -1195,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\cookie_cereja.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cookie_uva.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\cookie_uva.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/cookie_uva.png",
       "AssetKind": "All",
@@ -1214,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\cookie_uva.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\geleia_laranja.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\geleia_laranja.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/geleia_laranja.png",
       "AssetKind": "All",
@@ -1233,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\geleia_laranja.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\geleia_limao.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\geleia_limao.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/geleia_limao.png",
       "AssetKind": "All",
@@ -1252,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\geleia_limao.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\geleia_maracuja.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\geleia_maracuja.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/geleia_maracuja.png",
       "AssetKind": "All",
@@ -1271,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\geleia_maracuja.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\geleia_morango.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\geleia_morango.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/geleia_morango.png",
       "AssetKind": "All",
@@ -1290,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\geleia_morango.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\geleia_uva.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\geleia_uva.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/geleia_uva.png",
       "AssetKind": "All",
@@ -1309,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\geleia_uva.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\refri_abacaxi.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\refri_abacaxi.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/refri_abacaxi.png",
       "AssetKind": "All",
@@ -1328,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\refri_abacaxi.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\refri_blueberry.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\refri_blueberry.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/refri_blueberry.png",
       "AssetKind": "All",
@@ -1347,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\refri_blueberry.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\refri_kiwi.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\refri_kiwi.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/refri_kiwi.png",
       "AssetKind": "All",
@@ -1366,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\refri_kiwi.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\refri_laranja.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\refri_laranja.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/refri_laranja.png",
       "AssetKind": "All",
@@ -1385,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\refri_laranja.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\refri_limao.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\refri_limao.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/refri_limao.png",
       "AssetKind": "All",
@@ -1404,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\refri_limao.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\refri_vermelho.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\refri_vermelho.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/refri_vermelho.png",
       "AssetKind": "All",
@@ -1423,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\refri_vermelho.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\salgadinho_azeite.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\salgadinho_azeite.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/salgadinho_azeite.png",
       "AssetKind": "All",
@@ -1442,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\salgadinho_azeite.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\salgadinho_cebola.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\salgadinho_cebola.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/salgadinho_cebola.png",
       "AssetKind": "All",
@@ -1461,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\salgadinho_cebola.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\salgadinho_ervas.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\salgadinho_ervas.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/salgadinho_ervas.png",
       "AssetKind": "All",
@@ -1480,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\salgadinho_ervas.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\salgadinho_natural.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\salgadinho_natural.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/salgadinho_natural.png",
       "AssetKind": "All",
@@ -1499,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\salgadinho_natural.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\salgadinho_pimenta.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\salgadinho_pimenta.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/salgadinho_pimenta.png",
       "AssetKind": "All",
@@ -1518,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\salgadinho_pimenta.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\salgadinho_tomate.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\produtos\\salgadinho_tomate.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/produtos/salgadinho_tomate.png",
       "AssetKind": "All",
@@ -1537,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\salgadinho_tomate.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\search.svg",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\search.svg",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/search.svg",
       "AssetKind": "All",
@@ -1556,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\img\\search.svg"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\sobre.png",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\img\\sobre.png",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "img/sobre.png",
       "AssetKind": "All",
@@ -1575,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\img\\sobre.png"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\js\\home.js",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\js\\home.js",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "js/home.js",
       "AssetKind": "All",
@@ -1594,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\js\\home.js"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\js\\site.js",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1613,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1632,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1651,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1670,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1689,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1708,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1727,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1746,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1765,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1784,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1803,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1822,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1841,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1860,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1879,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1898,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1917,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1936,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1955,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1974,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1993,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2012,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2031,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2050,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2069,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2088,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2107,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2126,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2145,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2164,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2183,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2202,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2221,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2240,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2259,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2278,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2297,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2316,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2335,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2354,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2373,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2392,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2411,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2430,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2449,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2468,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2487,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2506,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2525,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2544,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2563,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2582,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2601,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2620,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2639,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2658,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2677,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "WebEcommerce",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3ds\\Desktop\\Health Treats\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\",
       "BasePath": "_content/WebEcommerce",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
