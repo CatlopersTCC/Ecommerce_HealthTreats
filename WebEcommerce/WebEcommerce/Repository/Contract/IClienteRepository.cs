@@ -12,8 +12,6 @@ namespace WebEcommerce.Repository.Contract
 
         void AtualizarDados (Cliente cliente);
 
-        void AtualizarPerfil (Cliente cliente);
-
         void ExcluirConta(int IdUsu);
 
         //CRUD do cartão

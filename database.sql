@@ -295,7 +295,3 @@ BEGIN
 END;
 $$
 
-select * from tblCartao;
-
-call ipCartao(1111222233334444, 'Matheus Gama Russi', 1, 123, '2024-12-31');
-call ipCartao(1234567890123456, 'Matheus Gama Russi', 1, 123, '2024-12-31');

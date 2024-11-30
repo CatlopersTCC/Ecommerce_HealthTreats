@@ -16,13 +16,35 @@ namespace WebEcommerce.Repository
 
         public void AtualizarDados(Cliente cliente)
         {
+            /*
+            using (var conexao = new MySqlConnection(conexaoMySQL))
+            { 
+                conexao.Open();
+                MySqlCommand cmd = new MySqlCommand("Update tblCliente set cpf=@cpf, cep=@cep, numResidencia=@numResidencia, complemento=@complemento, email=@email, nomeUsu=@nomeUsu, nomeCompleto=@nomeComp, avaaliacaoMedica=@avaMed, dataNasc=@DNasc, tel=@tel, foto=@foto, senha=@senha Where idUsu=@idUsu", conexao);
+
+                cmd.Parameters.Add("@idUsu", MySqlDbType.Int64).Value = cliente.IdUsu;
+                cmd.Parameters.Add("@email", MySqlDbType.VarChar).Value = cliente.Email;
+                cmd.Parameters.Add("@senha", MySqlDbType.VarChar).Value = cliente.Senha;
+                cmd.Parameters.Add("@cpf", MySqlDbType.Decimal).Value = cliente.CPF;
+                cmd.Parameters.Add("@cep", MySqlDbType.Decimal).Value = cliente.CEP;
+                cmd.Parameters.Add("@logradouro", MySqlDbType.VarChar).Value = cliente.Logradouro;
+                cmd.Parameters.Add("@bairro", MySqlDbType.VarChar).Value = cliente.NomeBairro;
+                cmd.Parameters.Add("@numResidencia", MySqlDbType.Int64).Value = cliente.NumResidencia;
+                cmd.Parameters.Add("@complemento", MySqlDbType.VarChar).Value = cliente.Complemento;
+                cmd.Parameters.Add("@nomeUsu", MySqlDbType.VarChar).Value = cliente.NomeUsu;
+                cmd.Parameters.Add("@nomeCompleto", MySqlDbType.VarChar).Value = cliente.NomeCompleto;
+                cmd.Parameters.Add("@avaliacaoMedica", MySqlDbType.VarChar).Value = cliente.AvaliacaoMedica;
+                cmd.Parameters.Add("@dataNasc", MySqlDbType.Date).Value = cliente.DataNasc;
+                cmd.Parameters.Add("@tel", MySqlDbType.VarChar).Value = cliente.Tel;
+                cmd.Parameters.Add("@foto", MySqlDbType.VarChar).Value = cliente.Foto;
+            
+
+            }
+            */
+
             throw new NotImplementedException();
         }
 
-        public void AtualizarPerfil(Cliente cliente)
-        {
-            throw new NotImplementedException();
-        }
 
         //Método para o login de cliente
         public Cliente RealizarLogin(string email, string senha)
@@ -49,6 +71,16 @@ namespace WebEcommerce.Repository
                         Email = Convert.ToString(dr["email"]),
                         Senha = Convert.ToString(dr["senha"]),
                         NomeUsu = Convert.ToString(dr["nomeUsu"]),
+                        CPF = Convert.ToDecimal(dr["cpf"]),
+                        CEP = Convert.ToDecimal(dr["cep"]),
+                        NumResidencia = Convert.ToInt32(dr["numResidencia"]),
+                        Complemento = Convert.ToString(dr["complemento"]),
+                        NomeCompleto = Convert.ToString(dr["nomeCompleto"]),
+                        AvaliacaoMedica = Convert.ToString(dr["avaliacaoMedica"]),
+                        DataNasc = Convert.ToDateTime(dr["dataNasc"]),
+                        Tel = Convert.ToString(dr["tel"]),
+                        Foto = Convert.ToString(dr["foto"]),
+
                     };
                 }
 
