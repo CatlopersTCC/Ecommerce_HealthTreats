@@ -16,11 +16,12 @@ namespace WebEcommerce.Repository
 
         public void AtualizarDados(Cliente cliente)
         {
-            /*
+            
             using (var conexao = new MySqlConnection(conexaoMySQL))
             { 
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("Update tblCliente set cpf=@cpf, cep=@cep, numResidencia=@numResidencia, complemento=@complemento, email=@email, nomeUsu=@nomeUsu, nomeCompleto=@nomeComp, avaaliacaoMedica=@avaMed, dataNasc=@DNasc, tel=@tel, foto=@foto, senha=@senha Where idUsu=@idUsu", conexao);
+                MySqlCommand cmd = new MySqlCommand("call upCliente(@email, @senha, @cpf, @cep, @logradouro, @bairro, @numResidencia, @complemento," +
+                                                    "@nomeUsu, @nomeCompleto, @avaliacaoMedica, @dataNasc, @tel, @foto)", conexao);
 
                 cmd.Parameters.Add("@idUsu", MySqlDbType.Int64).Value = cliente.IdUsu;
                 cmd.Parameters.Add("@email", MySqlDbType.VarChar).Value = cliente.Email;
@@ -37,12 +38,13 @@ namespace WebEcommerce.Repository
                 cmd.Parameters.Add("@dataNasc", MySqlDbType.Date).Value = cliente.DataNasc;
                 cmd.Parameters.Add("@tel", MySqlDbType.VarChar).Value = cliente.Tel;
                 cmd.Parameters.Add("@foto", MySqlDbType.VarChar).Value = cliente.Foto;
+
+
+                cmd.ExecuteNonQuery();
+                conexao.Close();
             
 
             }
-            */
-
-            throw new NotImplementedException();
         }
 
 

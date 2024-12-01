@@ -295,3 +295,27 @@ BEGIN
 END;
 $$
 
+/*------------------------------------------------------------------------------------------Atualizar Dados---------------------------------------------------------------------------------*/
+
+delimiter $$
+CREATE PROCEDURE upCliente(vEmail varchar(150), vSenha varchar(150), vCpf decimal(11,0), vCep decimal(8,0), vLogradouro varchar(200), vBairro varchar(200), vNumCasa int, vComplemento varchar(100), vNUsu varchar(150), vNCUsu varchar(200), vMedica varchar(100), vNasc date, vTel varchar(11), vFoto varchar(200))
+BEGIN
+
+	SET @Id = (SELECT idUsu from tblCliente where cpf = vCpf);
+    
+    IF NOT EXISTS(SELECT cep from tblEndereco where cep = vCep) THEN
+	
+		IF NOT EXISTS (SELECT bairro from tblBairro where bairro = vBairro) THEN
+		
+			INSERT INTO tblBairro (bairro) values (vBairro);
+		
+		END IF;
+
+		INSERT INTO tblEndereco (cep, Logradouro, idBairro) values (vCep, vLogradouro, (SELECT idBairro from tblBairro where bairro = vBairro));
+
+	END IF;
+	
+    UPDATE tblCliente set cpf=vCpf, cep=vCep, numResidencia=vNumCasa, complemento=vComplemento, email=vEmail, nomeUsu=vNUsu, nomeCompleto=vNCusu, avaliacaoMedica=vMedica, dataNasc=vNasc, tel=vTel, foto=vFoto, senha=vSenha Where idUsu=@Id;
+    
+    END;
+$$

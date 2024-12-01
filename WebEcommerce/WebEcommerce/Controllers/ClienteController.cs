@@ -113,5 +113,25 @@ namespace WebEcommerce.Controllers
             _clienteRepository.AdicionarCartao(cartao);
             return RedirectToAction(nameof(Cartoes)); // Redireciona após o sucesso
         }
+
+        /*
+
+        public IActionResult AtualizarPerfil(int id) 
+        {
+            var obterCliente = _clienteRepository.RealizarLogin();
+            var ObjCliente = new Cliente
+            {
+                
+            }
+        
+        }
+
+        [HttpPost]
+        public IActionResult AtualizarPerfil(Cliente cliente)
+        {
+            return View();
+        }
+        */
+        
     }
 }
