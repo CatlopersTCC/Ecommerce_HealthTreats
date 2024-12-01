@@ -13,15 +13,40 @@
 }
 
 
-.produtos-section #filtros{
-    width: 50em;
+.produtos-section #filtros h3{
+    font-weight: 500;
+}
+.produtos-section #filtros h3 span{
+    font-weight: 700;
+    color: #84B750;
+}
+.produtos-section #filtros form{
+    width: 10em;
+}
+.produtos-section #filtros form div{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+}
+.produtos-section #filtros form button{
+    width: 5em;
+    height: 2.5em;
+    border: none;
+    border-radius: .5em;
+    background-color: #84B750;
+    color: white;
+
+    transition: 200ms;
+}
+.produtos-section #filtros form button:hover{
+    background-color: #596B39;
 }
 
 
 .produtos-section #produtos #card-produto{
    display: flex;
    flex-wrap: wrap;
-   margin-left: 7.25em;
+   margin-left: 3em;
 
    width: 100%;
 }

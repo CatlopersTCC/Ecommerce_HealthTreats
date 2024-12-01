@@ -14,38 +14,51 @@ namespace WebEcommerce.Repository
         #pragma warning restore CS8601 // Possible null reference assignment.
         public string ConexaoMySql => conexaoMySQL;
 
-        public void AtualizarDados(Cliente cliente)
+        public void AtualizarDados(Cliente cliente, Endereco endereco, Bairro bairro)
         {
-            
-            using (var conexao = new MySqlConnection(conexaoMySQL))
-            { 
-                conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("call upCliente(@email, @senha, @cpf, @cep, @logradouro, @bairro, @numResidencia, @complemento," +
-                                                    "@nomeUsu, @nomeCompleto, @avaliacaoMedica, @dataNasc, @tel, @foto)", conexao);
+            if (cliente == null || endereco == null || bairro == null)
+            {
+                throw new ArgumentNullException("Os dados do cliente, endereço ou bairro não podem ser nulos.");
+            }
 
-                cmd.Parameters.Add("@idUsu", MySqlDbType.Int64).Value = cliente.IdUsu;
-                cmd.Parameters.Add("@email", MySqlDbType.VarChar).Value = cliente.Email;
-                cmd.Parameters.Add("@senha", MySqlDbType.VarChar).Value = cliente.Senha;
-                cmd.Parameters.Add("@cpf", MySqlDbType.Decimal).Value = cliente.CPF;
-                cmd.Parameters.Add("@cep", MySqlDbType.Decimal).Value = cliente.CEP;
-                cmd.Parameters.Add("@logradouro", MySqlDbType.VarChar).Value = cliente.Logradouro;
-                cmd.Parameters.Add("@bairro", MySqlDbType.VarChar).Value = cliente.NomeBairro;
-                cmd.Parameters.Add("@numResidencia", MySqlDbType.Int64).Value = cliente.NumResidencia;
-                cmd.Parameters.Add("@complemento", MySqlDbType.VarChar).Value = cliente.Complemento;
-                cmd.Parameters.Add("@nomeUsu", MySqlDbType.VarChar).Value = cliente.NomeUsu;
-                cmd.Parameters.Add("@nomeCompleto", MySqlDbType.VarChar).Value = cliente.NomeCompleto;
-                cmd.Parameters.Add("@avaliacaoMedica", MySqlDbType.VarChar).Value = cliente.AvaliacaoMedica;
-                cmd.Parameters.Add("@dataNasc", MySqlDbType.Date).Value = cliente.DataNasc;
-                cmd.Parameters.Add("@tel", MySqlDbType.VarChar).Value = cliente.Tel;
-                cmd.Parameters.Add("@foto", MySqlDbType.VarChar).Value = cliente.Foto;
+            try
+            {
+                using (var conexao = new MySqlConnection(conexaoMySQL))
+                {
+                    conexao.Open();
+                    using (var cmd = new MySqlCommand(
+                        "call upCliente(@email, @senha, @cpf, @cep, @logradouro, @bairro, @numResidencia, @complemento, " +
+                        "@nomeUsu, @nomeCompleto, @avaliacaoMedica, @dataNasc, @tel, @foto)", conexao))
+                    {
+                        cmd.Parameters.Add("@email", MySqlDbType.VarChar).Value = cliente.Email;
+                        cmd.Parameters.Add("@senha", MySqlDbType.VarChar).Value = cliente.Senha;
+                        cmd.Parameters.Add("@cpf", MySqlDbType.Decimal).Value = cliente.CPF;
+                        cmd.Parameters.Add("@cep", MySqlDbType.Decimal).Value = endereco.CEP;
+                        cmd.Parameters.Add("@logradouro", MySqlDbType.VarChar).Value = endereco.Logradouro;
+                        cmd.Parameters.Add("@bairro", MySqlDbType.VarChar).Value = bairro.NomeBairro;
+                        cmd.Parameters.Add("@numResidencia", MySqlDbType.Int64).Value = cliente.NumResidencia;
+                        cmd.Parameters.Add("@complemento", MySqlDbType.VarChar).Value = cliente.Complemento;
+                        cmd.Parameters.Add("@nomeUsu", MySqlDbType.VarChar).Value = cliente.NomeUsu;
+                        cmd.Parameters.Add("@nomeCompleto", MySqlDbType.VarChar).Value = cliente.NomeCompleto;
+                        cmd.Parameters.Add("@avaliacaoMedica", MySqlDbType.VarChar).Value = cliente.AvaliacaoMedica;
+                        cmd.Parameters.Add("@dataNasc", MySqlDbType.Date).Value = cliente.DataNasc;
+                        cmd.Parameters.Add("@tel", MySqlDbType.VarChar).Value = cliente.Tel;
+                        cmd.Parameters.Add("@foto", MySqlDbType.VarChar).Value = cliente.Foto;
 
-
-                cmd.ExecuteNonQuery();
-                conexao.Close();
-            
-
+                        int rowsAffected = cmd.ExecuteNonQuery();
+                        if (rowsAffected == 0)
+                        {
+                            throw new Exception("Nenhuma linha foi atualizada. Verifique se os dados estão corretos.");
+                        }
+                    }
+                }
+            }
+            catch (MySqlException ex)
+            {
+                throw new Exception("Erro ao atualizar os dados do cliente: " + ex.Message);
             }
         }
+
 
 
         //Método para o login de cliente

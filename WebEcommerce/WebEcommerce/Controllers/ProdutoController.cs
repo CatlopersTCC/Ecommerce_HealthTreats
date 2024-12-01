@@ -16,10 +16,24 @@ namespace WebEcommerce.Controllers
             _produtoRepository = produtoRepository;
         }
 
-        public IActionResult Produtos()
+        public IActionResult Produtos(int? categoria)
         {
-            return View(_produtoRepository.ListarProdutos());
+            IEnumerable<Produto> produtos;
+
+            // Se não houver filtro, pega todos os produtos
+            if (!categoria.HasValue)
+            {
+                produtos = _produtoRepository.ListarProdutos();
+            }
+            else
+            {
+                // Caso contrário, filtra os produtos pelas categorias selecionadas
+                produtos = _produtoRepository.ListarProdutosPorCategoria(categoria);
+            }
+
+            return View(produtos);
         }
+
 
         public IActionResult DetalhesProdutos(int cod)
         {

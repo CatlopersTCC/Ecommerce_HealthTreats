@@ -114,24 +114,37 @@ namespace WebEcommerce.Controllers
             return RedirectToAction(nameof(Cartoes)); // Redireciona após o sucesso
         }
 
-        /*
 
-        public IActionResult AtualizarPerfil(int id) 
+
+        public IActionResult AtualizarPerfil()
         {
-            var obterCliente = _clienteRepository.RealizarLogin();
-            var ObjCliente = new Cliente
+            var cliente = _loginCliente.GetCliente(); // Obtém o cliente logado
+            if (cliente == null)
             {
-                
+                return RedirectToAction(nameof(Index)); // Redireciona se não houver cliente logado
             }
-        
-        }
 
-        [HttpPost]
-        public IActionResult AtualizarPerfil(Cliente cliente)
-        {
-            return View();
+            return View(cliente);
         }
-        */
-        
+        [HttpPost]
+        public IActionResult AtualizarPerfil(Cliente cliente, Endereco endereco, Bairro bairro)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(cliente); // Retorna a View com os erros de validação
+            }
+
+            var clienteLogado = _loginCliente.GetCliente();
+            if (clienteLogado == null || clienteLogado.IdUsu != cliente.IdUsu)
+            {
+                return RedirectToAction(nameof(Index)); // Redireciona para login se algo der errado
+            }
+
+            _clienteRepository.AtualizarDados(cliente, endereco, bairro); // Atualiza os dados no banco
+            _loginCliente.Login(cliente); // Atualiza os dados na sessão
+
+            TempData["SuccessMessage"] = "Perfil atualizado com sucesso!";
+            return RedirectToAction(nameof(Index)); // Redireciona para a página inicial
+        }
     }
 }

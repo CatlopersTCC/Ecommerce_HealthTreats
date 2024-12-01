@@ -41,13 +41,17 @@
 
     <section class="produtos-section">
         <aside id="filtros">
-            <dl>
-                <dt>Categoria</dt>
-                <dd><input type="checkbox" /> &nbspMassas</dd>
-                <dd><input type="checkbox" /> &nbspDoces</dd>
-                <dd><input type="checkbox" /> &nbspSalgados</dd>
-                <dd><input type="checkbox" /> &nbspBebidas</dd>
-            </dl>
+            <h3>Procure pela <span>categoria!</span></h3>
+            <form method="get" action="/Produto/Produtos">
+                <div>
+                    <label><input type="radio" name="categoria" value="1" /> Massas</label>
+                    <label><input type="radio" name="categoria" value="2" /> Doces</label>
+                    <label><input type="radio" name="categoria" value="3" /> Salgados</label>
+                    <label><input type="radio" name="categoria" value="4" /> Bebidas</label>
+                </div>
+                <button type="submit">Filtrar</button>
+            </form>
+
         </aside>
        <aside id="produtos">
             <div id="card-produto">

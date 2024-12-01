@@ -52,6 +52,10 @@
         margin-bottom: 3em;
     }
 
+    #produto #info div h3{
+        width: 12em;
+    }
+
         #produto #info div h2 {
             font-size: 3em;
             font-weight: 400;

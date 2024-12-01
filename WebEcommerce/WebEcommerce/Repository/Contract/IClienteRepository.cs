@@ -10,7 +10,7 @@ namespace WebEcommerce.Repository.Contract
 
         Cliente RealizarLogin (string email, string senha);
 
-        void AtualizarDados (Cliente cliente);
+        void AtualizarDados (Cliente cliente, Endereco endereco, Bairro bairro);
 
         void ExcluirConta(int IdUsu);
 
