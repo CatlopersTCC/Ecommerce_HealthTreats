@@ -7,40 +7,44 @@
       "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\controllers\\pagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\repository\\contract\\icarrinhorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\repository\\contract\\icarrinhorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\repository\\contract\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\repository\\contract\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\repository\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\repository\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\repository\\carrinhorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\repository\\carrinhorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\repository\\contract\\icarrinhorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\repository\\contract\\icarrinhorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\models\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\models\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\views\\pagamento\\pagamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\views\\pagamento\\pagamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\models\\carrinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\models\\carrinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\models\\viewmodels\\pagamentoclientecarrinhoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\models\\viewmodels\\pagamentoclientecarrinhoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\repository\\pagamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\repository\\pagamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\wwwroot\\css\\pagamento.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\wwwroot\\css\\pagamento.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\repository\\contract\\ipagamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\repository\\contract\\ipagamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|c:\\users\\matheus\\desktop\\catlopers\\health treats\\e-commerce\\ecommerce_healthtreats\\webecommerce\\webecommerce\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E289E504-470C-4016-BD70-DF274589CE3D}|WebEcommerce\\WebEcommerce.csproj|solutionrelative:webecommerce\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,58 +54,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ICarrinhoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\Contract\\ICarrinhoRepository.cs",
-              "RelativeDocumentMoniker": "WebEcommerce\\Repository\\Contract\\ICarrinhoRepository.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\Contract\\ICarrinhoRepository.cs",
-              "RelativeToolTip": "WebEcommerce\\Repository\\Contract\\ICarrinhoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\Contract\\IProdutoRepository.cs",
+              "RelativeDocumentMoniker": "WebEcommerce\\Repository\\Contract\\IProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\Contract\\IProdutoRepository.cs",
+              "RelativeToolTip": "WebEcommerce\\Repository\\Contract\\IProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T00:06:58.287Z",
+              "WhenOpened": "2024-12-02T02:12:13.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "WebEcommerce\\Repository\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\ProdutoRepository.cs",
+              "RelativeToolTip": "WebEcommerce\\Repository\\ProdutoRepository.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAADwv94AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T02:11:23.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Pagamento.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Views\\Pagamento\\Pagamento.cshtml",
-              "RelativeDocumentMoniker": "WebEcommerce\\Views\\Pagamento\\Pagamento.cshtml",
-              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Views\\Pagamento\\Pagamento.cshtml",
-              "RelativeToolTip": "WebEcommerce\\Views\\Pagamento\\Pagamento.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T23:52:29.872Z",
+              "Title": "ICarrinhoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\Contract\\ICarrinhoRepository.cs",
+              "RelativeDocumentMoniker": "WebEcommerce\\Repository\\Contract\\ICarrinhoRepository.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\Contract\\ICarrinhoRepository.cs",
+              "RelativeToolTip": "WebEcommerce\\Repository\\Contract\\ICarrinhoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T02:09:14.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IPagamentoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\Contract\\IPagamentoRepository.cs",
-              "RelativeDocumentMoniker": "WebEcommerce\\Repository\\Contract\\IPagamentoRepository.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\Contract\\IPagamentoRepository.cs",
-              "RelativeToolTip": "WebEcommerce\\Repository\\Contract\\IPagamentoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CarrinhoController.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Controllers\\CarrinhoController.cs",
+              "RelativeDocumentMoniker": "WebEcommerce\\Controllers\\CarrinhoController.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Controllers\\CarrinhoController.cs",
+              "RelativeToolTip": "WebEcommerce\\Controllers\\CarrinhoController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA7wDAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T23:51:26.424Z",
+              "WhenOpened": "2024-12-02T02:03:39.047Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PagamentoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\PagamentoRepository.cs",
-              "RelativeDocumentMoniker": "WebEcommerce\\Repository\\PagamentoRepository.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\PagamentoRepository.cs",
-              "RelativeToolTip": "WebEcommerce\\Repository\\PagamentoRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "WebEcommerce\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "WebEcommerce\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAmwFcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T23:50:19.78Z",
+              "WhenOpened": "2024-12-02T01:58:08.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarrinhoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\CarrinhoRepository.cs",
+              "RelativeDocumentMoniker": "WebEcommerce\\Repository\\CarrinhoRepository.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\CarrinhoRepository.cs",
+              "RelativeToolTip": "WebEcommerce\\Repository\\CarrinhoRepository.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAUwDoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T01:04:11.004Z",
               "EditorCaption": ""
             },
             {
@@ -112,74 +142,61 @@
               "RelativeDocumentMoniker": "WebEcommerce\\Controllers\\PagamentoController.cs",
               "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Controllers\\PagamentoController.cs",
               "RelativeToolTip": "WebEcommerce\\Controllers\\PagamentoController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAQwDsAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAswE8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T23:49:32.151Z",
+              "WhenOpened": "2024-12-02T00:59:54.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Pagamento.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Models\\Pagamento.cs",
-              "RelativeDocumentMoniker": "WebEcommerce\\Models\\Pagamento.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Models\\Pagamento.cs",
-              "RelativeToolTip": "WebEcommerce\\Models\\Pagamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "PagamentoClienteCarrinhoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Models\\ViewModels\\PagamentoClienteCarrinhoViewModel.cs",
+              "RelativeDocumentMoniker": "WebEcommerce\\Models\\ViewModels\\PagamentoClienteCarrinhoViewModel.cs",
+              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Models\\ViewModels\\PagamentoClienteCarrinhoViewModel.cs",
+              "RelativeToolTip": "WebEcommerce\\Models\\ViewModels\\PagamentoClienteCarrinhoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T23:48:06.773Z",
+              "WhenOpened": "2024-12-02T00:59:29.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CarrinhoController.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Controllers\\CarrinhoController.cs",
-              "RelativeDocumentMoniker": "WebEcommerce\\Controllers\\CarrinhoController.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Controllers\\CarrinhoController.cs",
-              "RelativeToolTip": "WebEcommerce\\Controllers\\CarrinhoController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T23:07:39.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CarrinhoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\CarrinhoRepository.cs",
-              "RelativeDocumentMoniker": "WebEcommerce\\Repository\\CarrinhoRepository.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Repository\\CarrinhoRepository.cs",
-              "RelativeToolTip": "WebEcommerce\\Repository\\CarrinhoRepository.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAEwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T22:34:38.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Carrinho.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Models\\Carrinho.cs",
-              "RelativeDocumentMoniker": "WebEcommerce\\Models\\Carrinho.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Models\\Carrinho.cs",
-              "RelativeToolTip": "WebEcommerce\\Models\\Carrinho.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T00:14:36.045Z",
+              "DocumentIndex": 7,
+              "Title": "Pagamento.cshtml",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Views\\Pagamento\\Pagamento.cshtml",
+              "RelativeDocumentMoniker": "WebEcommerce\\Views\\Pagamento\\Pagamento.cshtml",
+              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Views\\Pagamento\\Pagamento.cshtml",
+              "RelativeToolTip": "WebEcommerce\\Views\\Pagamento\\Pagamento.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T00:52:45.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ProdutoController.cs",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Controllers\\ProdutoController.cs",
-              "RelativeDocumentMoniker": "WebEcommerce\\Controllers\\ProdutoController.cs",
-              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\Controllers\\ProdutoController.cs",
-              "RelativeToolTip": "WebEcommerce\\Controllers\\ProdutoController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T00:05:23.25Z",
+              "Title": "pagamento.css",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\pagamento.css",
+              "RelativeDocumentMoniker": "WebEcommerce\\wwwroot\\css\\pagamento.css",
+              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\pagamento.css",
+              "RelativeToolTip": "WebEcommerce\\wwwroot\\css\\pagamento.css",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAFIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-02T01:23:42.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WebEcommerce\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WebEcommerce\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-02T01:25:31.098Z",
               "EditorCaption": ""
             }
           ]

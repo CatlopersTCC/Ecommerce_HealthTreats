@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
+      "Id": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\pagamento.css",
+      "PackagePath": "staticwebassets\\css\\pagamento.css"
+    },
+    {
       "Id": "C:\\Users\\Matheus\\Desktop\\Catlopers\\Health Treats\\E-commerce\\Ecommerce_HealthTreats\\WebEcommerce\\WebEcommerce\\wwwroot\\css\\produtos.css",
       "PackagePath": "staticwebassets\\css\\produtos.css"
     },

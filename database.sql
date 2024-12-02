@@ -50,8 +50,14 @@ create table tblCarrinhoCompras(
 	valorTotal decimal(7, 2) not null,
     frete decimal(5, 2) not null
 );
-select * from tblCarrinhoCompras;
-delete from tblCarrinhoCompras;
+/*
+	select * from tblCarrinhoCompras;
+	delete from tblCarrinhoCompras;
+    
+    select * from tblPagamento;
+    delete from tblPagamento;
+*/
+
 
 
 create table tblPagamento(
@@ -63,7 +69,7 @@ create table tblPagamento(
     dataHoraPag datetime not null default current_timestamp,
     statusPag varchar(50) not null
 );
-select * from tblPagamento;
+
 
 create table tblAvaliacao(
 	idAvaliacao int primary key auto_increment,
@@ -74,12 +80,14 @@ create table tblAvaliacao(
 );
 
 /*
-insert into tblAvaliacao values (default, 2, 1, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat sem nisl, non gravida erat posuere eget. Etiam condimentum, urna vitae cursus ullamcorper, urna nunc;", 38)
-insert into tblAvaliacao values (default, 1, 4, "Teste de avaliacao", 38)
+insert into tblAvaliacao values (default, 2, 1, "Entendo a ideia que eles tiveram para o produto, porém eu simplesmente não consegui aproveitar dele!;", 38);
+insert into tblAvaliacao values (default, 1, 4, "Adorei o produto!", 38);
 
 
 select * from tblAvaliacao a inner join tblCliente u on a.idUsu = u.idUsu where a.codProduto = @codProduto
 select * from tblCliente
+
+delete from tblAvaliacao
 */
 
 create table tblEndereco(

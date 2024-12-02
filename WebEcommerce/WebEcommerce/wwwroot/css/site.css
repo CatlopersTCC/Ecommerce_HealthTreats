@@ -114,7 +114,3 @@ footer .container{
 .pesquisa-form button img{
     width: 1em;
 }
-
-.pesquisa-form button:hover {
-    background-color: #0056b3;
-}

@@ -1,0 +1,94 @@
+﻿body {
+    background-color: #fbfbfb;
+    color: #353535;
+    width: 100%;
+}
+#pagamento{
+    margin-top: 3em;
+}
+#pagamento #dados-usuario {
+    margin-bottom: 3em;
+}
+#pagamento #dados-usuario ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+
+#pagamento #container-produtos{
+    background-color: white;
+    padding: 2em;
+    border-radius: 1.4em;
+    box-shadow: 0em 0em 1em #00000004;
+}
+#pagamento #container-produtos #produto{
+    background-color: white;
+    padding: .8em;
+    border-radius: 1em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: center;
+    box-shadow: 0em 0em 1em #0000000e;
+    margin-top: 1em;
+
+    transition: 200ms;
+}
+#pagamento #container-produtos #produto:hover{
+    box-shadow: 0em 0em 1em #49455239;
+}
+#pagamento #container-produtos #produto img{
+    width: 8em;
+    border-radius: .7em;
+    margin-right: 2em;
+}
+
+
+
+#pagamento #valores-totais{
+    margin-left: 55em;
+    padding: 2em;
+}
+#pagamento #valores-totais p{
+    font-size: 1.5em;
+    text-align: right;
+}
+#pagamento #valores-totais span{
+    color: #84B750;
+    font-weight: 700;
+}
+
+
+#pagamento form{
+    display: flex;
+    flex-direction: column;
+    width: 50em;
+}
+#pagamento form #finalizar{
+    display: flex;
+    flex-direction: row;
+}
+#pagamento form #finalizar select{
+    width: 15em;
+    height: 3em;
+    text-align: center;
+    border-radius: .5em;
+}
+#pagamento form #finalizar button{
+    width: 15em;
+    height: 3em;
+    text-align: center;
+    border-radius: .5em;
+    margin-left: 1em;
+    border: none;
+    background-color: #84B750;
+    color: white;
+
+    transition: 200ms;
+}
+#pagamento form #finalizar button:hover{
+    background-color: #596B39;
+}

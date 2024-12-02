@@ -10,9 +10,8 @@ namespace WebEcommerce.Repository.Contract
         IEnumerable<Produto> PesquisarProdutosPorNome(string nome);
 
         Produto ObterProduto(int cod);
-
         Produto AddCarrinho(int Cod);
-
         Produto RemoverCarrinho(int Cod);
+        Produto RemoverTodosCarrinho();
     }
 }

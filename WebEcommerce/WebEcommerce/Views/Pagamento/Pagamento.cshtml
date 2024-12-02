@@ -1,4 +1,4 @@
-﻿@model WebEcommerce.Models.Carrinho
+﻿@model WebEcommerce.Models.ViewModels.PagamentoClienteCarrinhoViewModel
 
 @{
     ViewData["Title"] = "Pagamento";
@@ -15,21 +15,47 @@
 <body>
     <div id="pagamento">
         <h2>Detalhes do Pagamento</h2>
-        <div id="detalhes-pedido">
-            <h3>Valor Total: R$ @Model.ValorTotal</h3>
-            <h3>Frete: R$ @Model.Frete</h3>
 
-            <form asp-action="ConfirmarPagamento" method="post">
-                <label for="formaPag">Escolha a forma de pagamento:</label>
-                <select name="formaPag" id="formaPag">
-                    <option value="Cartão de Crédito">Cartão de Crédito</option>
-                    <option value="Boleto">Boleto</option>
-                    <option value="Pix">Pix</option>
+        <div id="dados-usuario">
+            <ul>
+                <li>Nome: @Model.Cliente.NomeCompleto</li>
+                <li>CPF: @Model.Cliente.CPF</li>
+            </ul>
+        </div>
+
+        <h3>Produtos</h3>
+        <div id="container-produtos">
+            @foreach (var produto in Model.Carrinho.Produtos)
+            {
+                <div id="produto">
+                    <img src="~/img/produtos/@produto.Foto" />
+                    <h4>@produto.NomeProduto - R$@produto.Preco</h4>
+                </div>
+            }
+        </div>
+
+        <div id="valores-totais">
+            <p>
+                Total do pedido: <span>R$@Model.Pagamento.ValorTotal</span><br />
+                Total do frete: <span>R$@Model.Carrinho.Frete</span>
+            </p>
+        </div>
+
+        <form method="post" action="@Url.Action("ConfirmarPagamento", "Pagamento")">
+            <h3 for="formaPag">Forma de Pagamento</h3>
+
+            <div id="finalizar">
+                <select id="formaPag" name="formaPag">
+                    <option value="Pix">Pix <span>(recomendado)</span></option>
+                    @foreach (var cartao in Model.Cartoes){
+                        <option value="Cartao">Cartão terminado em @(cartao.CodCartao.HasValue ? cartao.CodCartao.Value.ToString("0000000000000000").Substring(cartao.CodCartao.Value.ToString().Length - 4) : "****")</option>
+                    }
                 </select>
 
-                <button type="submit" id="btn_pagamento" class="btn-primary">Confirmar Pagamento</button>
-            </form>
-        </div>
+                <input type="hidden" name="idCarrinho" value="@Model.Carrinho.IdCarrinho" />
+                <button type="submit">Finalizar Pagamento</button>
+            </div>
+        </form>
     </div>
 </body>
 </html>

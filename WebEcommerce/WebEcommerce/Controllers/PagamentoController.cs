@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebEcommerce.Libraries.Login;
+using WebEcommerce.Models.ViewModels;
 using WebEcommerce.Models.WebEcommerce.Models;
 using WebEcommerce.Repository.Contract;
 
@@ -9,12 +10,16 @@ namespace WebEcommerce.Controllers
     {
         private readonly IPagamentoRepository _pagamentoRepository;
         private readonly ICarrinhoRepository _carrinhoRepository;
+        private readonly IClienteRepository _clienteRepository;
+        private readonly IProdutoRepository _produtoRepository;
         private readonly LoginCliente _loginCliente;
 
-        public PagamentoController(IPagamentoRepository pagamentoRepository, ICarrinhoRepository carrinhoRepository, LoginCliente loginCliente)
+        public PagamentoController(IPagamentoRepository pagamentoRepository, ICarrinhoRepository carrinhoRepository, IClienteRepository clienteRepository, IProdutoRepository produtoRepository, LoginCliente loginCliente)
         {
             _pagamentoRepository = pagamentoRepository;
             _carrinhoRepository = carrinhoRepository;
+            _clienteRepository = clienteRepository;
+            _produtoRepository = produtoRepository;
             _loginCliente = loginCliente;
         }
 
@@ -36,7 +41,22 @@ namespace WebEcommerce.Controllers
                 return RedirectToAction("Carrinho", "Carrinho");
             }
 
-            return View(carrinho);
+            // Criar a ViewModel com dados de pagamento, cliente e carrinho
+            var pagamentoClienteCarrinhoViewModel = new PagamentoClienteCarrinhoViewModel
+            {
+                Cliente = usuario,  // Passando dados do cliente
+                Carrinho = carrinho,  // Passando dados do carrinho
+                Pagamento = new Pagamento
+                {
+                    IdUsu = usuario.IdUsu,
+                    ValorTotal = carrinho.ValorTotal + carrinho.Frete,
+                    FormaPag = string.Empty,  // Forma de pagamento será preenchida no POST
+                    StatusPag = "Pendente"
+                },
+                Cartoes = _clienteRepository.ListarCartoes(usuario.IdUsu)
+            };
+
+            return View(pagamentoClienteCarrinhoViewModel);  // Passando a ViewModel para a View
         }
 
         // Finaliza o pagamento
@@ -44,22 +64,21 @@ namespace WebEcommerce.Controllers
         public IActionResult ConfirmarPagamento(string formaPag)
         {
             var usuario = _loginCliente.GetCliente();
-            var carrinho = _carrinhoRepository.ObterUltimoCarrinho(usuario.IdUsu);  // Usando o método que pega o último carrinho
+            var carrinho = _carrinhoRepository.ObterUltimoCarrinho(usuario.IdUsu);
+            carrinho.IdUsu = usuario.IdUsu;
 
-
-            // Registrar o pagamento no banco de dados
             var pagamento = new Pagamento
             {
                 IdUsu = usuario.IdUsu,
                 IdCarrinho = carrinho.IdCarrinho,
                 FormaPag = formaPag,
-                ValorTotal = carrinho.ValorTotal + carrinho.Frete, // Total com frete
-                StatusPag = "Pendente" // Ou 'Aprovado' dependendo da lógica
+                ValorTotal = carrinho.ValorTotal + carrinho.Frete,
+                StatusPag = "Pendente"
             };
 
             _pagamentoRepository.RegistrarPagamento(pagamento);
+            _produtoRepository.RemoverTodosCarrinho();
 
-            // Redirecionar para uma página de confirmação
             return RedirectToAction("PagamentoConfirmado");
         }
 
