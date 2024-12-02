@@ -33,13 +33,23 @@
         </div>
         <aside id="detalhes-pedido">
             <h2>Resumo do pedido</h2>
-            <h3>Valor Total: &nbsp &nbsp R$@Model.ValorTotal</h3>
-            <h3>Frete: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   R$00,00</h3>
+            <h3>Valor Total: &nbsp;&nbsp; R$ @(Model.Produtos.Count == 0 ? @Model.ValorTotal : @Model.ValorTotal - @Model.Frete)</h3>
+
+            @if (Model.Produtos.Count != 0)
+            {
+                <h3>Frete: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   R$@Model.Frete,00</h3>
+            }
+            else
+            {
+                <h3>Frete: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   R$00,00</h3>
+            }
             <h3>Desconto: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp    R$00,00</h3>
 
             <h2>Total: <span>R$@Model.ValorTotal</span></h2>
 
-            <button id="btn_produto" class="btn-primary">Finalizar Pedido</button>
+            <a asp-controller="Carrinho" asp-action="RegistrarCarrinho">
+                <button id="btn_produto" class="btn-primary">Finalizar Pedido</button>
+            </a>
             <a asp-controller="Produto" asp-action="Produtos">
                 <button id="btn_produto" class="btn-secondary">Continuar Comprando</button>
             </a>

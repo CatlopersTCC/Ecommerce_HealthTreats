@@ -40,5 +40,30 @@ namespace WebEcommerce.Controllers
             var produto = _produtoRepository.RemoverCarrinho(cod);
             return RedirectToAction("Carrinho");
         }
+
+        public IActionResult RegistrarCarrinho()
+        {
+            // Verifica o usuário logado
+            var usuario = _loginCliente.GetCliente();
+
+            if (usuario == null)
+            {
+                return RedirectToAction("LoginCliente", "Cliente");
+            }
+
+            // Obtém o carrinho atual
+            var carrinho = _carrinhoRepository.ListarProdutosCarrinho();
+            carrinho.IdUsu = usuario.IdUsu;
+
+            if (carrinho.Produtos.Count == 0)
+            {
+                TempData["Erro"] = "Carrinho vazio! Adicione produtos antes de finalizar o pedido.";
+                return RedirectToAction("Carrinho");
+            }
+
+            // Registra o carrinho no banco
+            _carrinhoRepository.RegistrarCarrinho(carrinho);
+            return RedirectToAction("Pagamento", "Pagamento");
+        }
     }
 }

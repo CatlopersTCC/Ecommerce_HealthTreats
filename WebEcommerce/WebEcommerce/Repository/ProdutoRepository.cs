@@ -108,6 +108,40 @@ namespace WebEcommerce.Repository
             return ProdList;
         }
 
+        public IEnumerable<Produto> PesquisarProdutosPorNome(string nome)
+        {
+            List<Produto> ProdList = new List<Produto>();
+            using (var conexao = new MySqlConnection(conexaoMySQL))
+            {
+                conexao.Open();
+                MySqlCommand cmd = new MySqlCommand("select * from tblProduto where nomeProd LIKE @nome", conexao);
+                cmd.Parameters.AddWithValue("@nome", $"%{nome}%");
+
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                conexao.Close();
+
+                foreach (DataRow dr in dt.Rows)
+                {
+                    ProdList.Add(
+                        new Produto
+                        {
+                            CodProduto = Convert.ToInt32(dr["codProduto"]),
+                            CodCategoria = Convert.ToInt32(dr["codCategoria"]),
+                            NomeProduto = (string)(dr["nomeProd"]),
+                            Preco = Convert.ToDecimal(dr["precoUnitario"]),
+                            Foto = (string)(dr["fotoProd"]),
+                            Destaque = Convert.ToBoolean(dr["destaques"])
+                        }
+                    );
+                }
+            }
+            return ProdList;
+        }
+
+
         public Produto ObterProduto(int cod)
         {
             Produto produto = new Produto();

@@ -1,0 +1,35 @@
+﻿@model WebEcommerce.Models.Carrinho
+
+@{
+    ViewData["Title"] = "Pagamento";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/pagamento.css" rel="stylesheet" />
+    <link href="~/css/fonts.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="pagamento">
+        <h2>Detalhes do Pagamento</h2>
+        <div id="detalhes-pedido">
+            <h3>Valor Total: R$ @Model.ValorTotal</h3>
+            <h3>Frete: R$ @Model.Frete</h3>
+
+            <form asp-action="ConfirmarPagamento" method="post">
+                <label for="formaPag">Escolha a forma de pagamento:</label>
+                <select name="formaPag" id="formaPag">
+                    <option value="Cartão de Crédito">Cartão de Crédito</option>
+                    <option value="Boleto">Boleto</option>
+                    <option value="Pix">Pix</option>
+                </select>
+
+                <button type="submit" id="btn_pagamento" class="btn-primary">Confirmar Pagamento</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

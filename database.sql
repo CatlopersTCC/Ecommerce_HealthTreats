@@ -47,23 +47,40 @@ create table tblCategoria(
 create table tblCarrinhoCompras(
 	idCarrinho int primary key auto_increment,
     idUsu int, /*FK*/
-    codProduto int /*FK*/
+	valorTotal decimal(7, 2) not null,
+    frete decimal(5, 2) not null
 );
+select * from tblCarrinhoCompras;
+delete from tblCarrinhoCompras;
+
 
 create table tblPagamento(
 	idPagamento int primary key auto_increment,
-    cpf decimal(11,0), /*FK*/
+    idUsu int, /*FK*/
+    idCarrinho int not null, /*FK*/
     formaPag varchar(50) not null,
-    dataHoraPag datetime not null
+    valorTotal decimal(7, 2) not null,
+    dataHoraPag datetime not null default current_timestamp,
+    statusPag varchar(50) not null
 );
+select * from tblPagamento;
 
 create table tblAvaliacao(
 	idAvaliacao int primary key auto_increment,
+    codProduto int not null, /*FK*/
     idUsu int, /*FK*/
-    qtdEstrela decimal(5,0) not null,
+    qtdEstrela int not null,
     comentario text not null,
-    imagensProd longblob
 );
+
+/*
+insert into tblAvaliacao values (default, 2, 1, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat sem nisl, non gravida erat posuere eget. Etiam condimentum, urna vitae cursus ullamcorper, urna nunc;", 38)
+insert into tblAvaliacao values (default, 1, 4, "Teste de avaliacao", 38)
+
+
+select * from tblAvaliacao a inner join tblCliente u on a.idUsu = u.idUsu where a.codProduto = @codProduto
+select * from tblCliente
+*/
 
 create table tblEndereco(
 	cep decimal(8,0) primary key,
@@ -93,7 +110,8 @@ alter table tblProduto add constraint fk_produto_categoria_codcategoria foreign 
 alter table tblCarrinhoCompras add constraint fk_carrinho_cliente_idusu foreign key (idUsu) references tblCliente(idUsu);
 alter table tblCarrinhoCompras add constraint fk_carrinho_produto_codproduto foreign key (codProduto) references tblProduto(codProduto);
 
-alter table tblPagamento add constraint fk_pagamento_cliente_idusu foreign key (cpf) references tblCliente(cpf);
+alter table tblPagamento add constraint fk_pagamento_cliente_idusu foreign key (idUsu) references tblCliente(idUsu);
+alter table tblPagamento add constraint fk_pagamento_carrinho_idcarrinho foreign key (idCarrinho) references tblCarrinhoCompras(idCarrinho);
 
 alter table tblAvaliacao add constraint fk_avaliacao_cliente_idusu foreign key (idUsu) references tblCliente(idUsu);
 

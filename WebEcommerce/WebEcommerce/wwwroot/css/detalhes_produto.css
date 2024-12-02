@@ -106,3 +106,50 @@
 .btn-secondary:hover {
     background-color: #acc0ee;
 }
+
+
+#comentarios {
+    margin-top: 4em;
+    width: 60em;
+    background-color: white;
+    padding: 2em;
+    box-shadow: 0em 0em 1em #00000004;
+    border-radius: 1em;
+}
+#comentarios #title{
+    color: #84B750;
+    font-size: 1.5em;
+}
+#comentarios #comentarios-container{
+    background-color: white;
+    padding: 1em;
+    border-radius: .7em;
+    box-shadow: 0em 0em 1em #0000000e;
+
+    transition: 200ms;
+}
+#comentarios #comentarios-container hr{
+    width: 45em;
+}
+#comentarios #comentarios-container:hover{
+    box-shadow: 0em 0em 1em #49455239;
+}
+#comentarios #comentarios-container #comentario{
+    padding: 1em 0em 1em 0em;
+}
+#comentarios #comentarios-container #comentario h2{
+    font-size: 1.8em;
+}
+#comentarios #comentarios-container #comentario h2 span{
+    font-size: .6em;
+    color: #b6b7b9;
+}
+#comentarios #comentarios-container #comentario h3{
+    font-size: 1em;
+}
+#comentarios #comentarios-container #comentario .estrelas img{
+    width: 1.5em;
+}
+#comentarios #comentarios-container h6{
+    color: #808080;
+}

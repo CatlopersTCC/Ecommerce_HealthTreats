@@ -24,7 +24,6 @@ a {
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #fff;
-    background-color: tomato;
     border-color: #1861ac;
 }
 
@@ -89,4 +88,33 @@ footer .container{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+
+
+.pesquisa-form {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.pesquisa-form input {
+    height: 2em;
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.pesquisa-form button {
+    padding: 10px 20px;
+    background: none;
+    border: none;
+}
+.pesquisa-form button img{
+    width: 1em;
+}
+
+.pesquisa-form button:hover {
+    background-color: #0056b3;
 }

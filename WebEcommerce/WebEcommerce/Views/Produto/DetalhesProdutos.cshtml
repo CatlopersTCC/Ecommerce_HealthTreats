@@ -1,4 +1,5 @@
-﻿@model WebEcommerce.Models.Produto
+﻿@using WebEcommerce.Models.ViewModels
+@model ProdutoDetalhesViewModel
 
 @inject WebEcommerce.Libraries.Login.LoginCliente LoginCliente
 
@@ -15,25 +16,25 @@
     <div id="produto">
         <aside>
             <div class="image-container">
-                <img src="~/img/produtos/@Model.Foto" alt="@Model.NomeProduto" />
+                <img src="~/img/produtos/@Model.Produto.Foto" alt="@Model.Produto.NomeProduto" />
             </div>
         </aside>
         <aside id="info">
             <div>
-                <h3>@Model.NomeProduto</h3>
-                <h2>R$@Model.Preco</h2>
-                <h6>Em até 6x de R$@string.Format("{0:F2}", Model.Preco / 6)</h6>
+                <h3>@Model.Produto.NomeProduto</h3>
+                <h2>R$@Model.Produto.Preco</h2>
+                <h6>Em até 6x de R$@string.Format("{0:F2}", Model.Produto.Preco / 6)</h6>
                 <h5 id="aviso">◗ Apenas para o estado de São Paulo</h5>
-                <h5 id="qtd">Quantidade: @Model.QtdEstoque disponíveis</h5>
+                <h5 id="qtd">Quantidade: @Model.Produto.QtdEstoque disponíveis</h5>
                 <details>
                     <summary>Mais sobre esse produto:</summary>
-                    <p>@Model.DescDetalhada</p>
+                    <p>@Model.Produto.DescDetalhada</p>
                 </details>
             </div>
             <button id="btn_produto" class="btn-primary">Comprar</button>
             @if (LoginCliente.GetCliente() != null)
             {
-                <a asp-controller="Carrinho" asp-action="AddCarrinho" asp-route-cod="@Model.CodProduto">
+                <a asp-controller="Carrinho" asp-action="AddCarrinho" asp-route-cod="@Model.Produto.CodProduto">
                     <button id="btn_produto" class="btn-secondary">Adicionar ao Carrinho</button>
                 </a>
             }
@@ -45,6 +46,36 @@
             }
             
         </aside>
+    </div>
+    <div id="comentarios">
+        <h2 id="title">Comentarios:</h2>
+        <div id="comentarios-container">
+            @if (!Model.Avaliacoes.Any())
+            {
+                <h6>Este produto ainda não possui avaliações!</h6>
+            }
+            else
+            {
+                foreach (var avaliacao in Model.Avaliacoes)
+                {
+                    <div id="comentario">
+                        <h2>Por: @avaliacao.NomeUsuario <span>(@avaliacao.NomeCompleto)</span></h2>
+                        <h3>@avaliacao.Comentario</h3>
+                        <div class="estrelas">
+                            @for (int? i = 0; i < avaliacao.QtdEstrelas; i++)
+                            {
+                                <img src="/img/estrela-cheia.png" alt="Estrela Cheia" />
+                            }
+                            @for (int? i = avaliacao.QtdEstrelas; i < 5; i++)
+                            {
+                                <img src="/img/estrela-vazia.png" alt="Estrela Vazia" />
+                            }
+                        </div>
+                    </div>
+                    <center><hr /></center>
+                }
+            }
+        </div>
     </div>
 
     <script>
