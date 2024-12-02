@@ -76,7 +76,7 @@ create table tblAvaliacao(
     codProduto int not null, /*FK*/
     idUsu int, /*FK*/
     qtdEstrela int not null,
-    comentario text not null,
+    comentario text not null
 );
 
 /*
@@ -116,7 +116,6 @@ alter table tblCliente add constraint fk_cliente_endereco_cep foreign key (cep) 
 alter table tblProduto add constraint fk_produto_categoria_codcategoria foreign key (codCategoria) references tblCategoria(codCategoria);
 
 alter table tblCarrinhoCompras add constraint fk_carrinho_cliente_idusu foreign key (idUsu) references tblCliente(idUsu);
-alter table tblCarrinhoCompras add constraint fk_carrinho_produto_codproduto foreign key (codProduto) references tblProduto(codProduto);
 
 alter table tblPagamento add constraint fk_pagamento_cliente_idusu foreign key (idUsu) references tblCliente(idUsu);
 alter table tblPagamento add constraint fk_pagamento_carrinho_idcarrinho foreign key (idCarrinho) references tblCarrinhoCompras(idCarrinho);
